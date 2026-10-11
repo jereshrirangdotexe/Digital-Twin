@@ -1,0 +1,22 @@
+{
+  "mlFields": [
+    "expectedOilTempC",
+    "thermalResidualC",
+    "thermalScore",
+    "thermalDecisionMargin",
+    "thermalAlert",
+    "thermalState",
+    "electricalState",
+    "electricalWarnings",
+    "dataConfidence",
+    "sensorState",
+    "calibrationStatus",
+    "calibrationUncertainty",
+    "warmupStatus",
+    "qualityReasons",
+    "modelVersion",
+    "modelStatus"
+  ],
+  "reference": "Supplied original runtime, known synthetic calibration, first full R01 replay",
+  "rows": 8064
+}

@@ -1,0 +1,7 @@
+import StatusPill from './StatusPill'
+import { assessmentCondition } from '../services/assessment'
+export default function TopBar({ asset, assets, onAssetChange, current, transport, preparing = false }) {
+  const link = !current ? 'NO TELEMETRY' : transport === 'RECONNECTING' ? 'STREAM DISCONNECTED' : current.asset.status
+  return <section className="status-strip" aria-label="Live transformer status"><div className="status-asset"><label><span>TRANSFORMER / REPLAY</span><select aria-label="Transformer selector" value={asset.id} disabled={!assets.length || preparing} onChange={(e) => onAssetChange(e.target.value)}>{!assets.length && <option value="">No dataset selected</option>}{assets.map((a) => <option key={a.id} value={a.id}>{a.id==='DEMO100_THERMAL_TWIN' ? 'JUDGE DEMO · synthetic thermal twin' : a.id} — {a.ratingKVA} kVA</option>)}</select></label></div>
+    <div className="status-cell"><span>RATING</span><strong>{asset.ratingKVA} kVA</strong></div><div className="status-cell"><span>LINK</span><StatusPill tone={link === 'ONLINE' ? 'success' : 'neutral'}>{link}</StatusPill></div><div className="status-cell"><span>MEASUREMENT READINESS</span><strong>{current?.ml.dataConfidence || 'UNAVAILABLE'}</strong></div><div className="status-cell condition-cell"><span>TWO-HOUR CONDITION</span><strong>{assessmentCondition(current).replaceAll('_',' ')}</strong></div><div className="status-cell status-time"><span>HISTORICAL SCADA TIME</span><strong>{current?.timestamp ? new Date(current.timestamp).toLocaleString() : 'UNAVAILABLE'}</strong></div></section>
+}

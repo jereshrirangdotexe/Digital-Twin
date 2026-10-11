@@ -1,0 +1,131 @@
+{
+  "contractVersion": "1.0",
+  "asset": {
+    "id": "R05",
+    "ratingKVA": 100,
+    "status": "ONLINE",
+    "ratedCurrent": 133.33724461654174,
+    "nominalVoltage": 249.99266655910796,
+    "coolingType": "ONAN",
+    "samplingInterval": "5 min"
+  },
+  "timestamp": "2026-04-16T19:05:00+05:30",
+  "telemetry": {
+    "voltageR": 241.6,
+    "voltageY": 244.2,
+    "voltageB": 245.2,
+    "currentR": 169.1,
+    "currentY": 135.2,
+    "currentB": 115.2,
+    "ambientTempC": 44.0,
+    "topOilTempC": 74.0,
+    "loadingPct": 102.11744,
+    "loadingSource": "DERIVED_PHASE_VI",
+    "communicationAvailable": true
+  },
+  "ml": {
+    "expectedOilTempC": 75.78826815616603,
+    "thermalResidualC": -1.7882681561660263,
+    "residualMean30minC": -1.7313163579796556,
+    "residualMean60minC": -1.5677464863723973,
+    "residualChange30minC": -0.27574454835446716,
+    "thermalScore": 7.70381245785382e-09,
+    "thermalDecisionMargin": -18.68155049852,
+    "thermalAlert": false,
+    "thermalState": "NORMAL",
+    "phaseLoadingWarning": true,
+    "undervoltageWarning": false,
+    "imbalanceWarning": false,
+    "electricalState": "PHASE_LOADING_WARNING",
+    "dataConfidence": "REDUCED",
+    "assetCondition": "ELECTRICAL_CONDITION_ALERT",
+    "calibrationStatus": "REFERENCE_CALIBRATION",
+    "warmupStatus": "READY",
+    "modelVersion": "VoltMind_100kVA_Final_Selected_v3",
+    "modelStatus": "FINAL_SELECTED_SYNTHETIC_BENCHMARK_LOCKED",
+    "runtimeVersion": "VoltMind_100kVA_Hackathon_Runtime_v1.0"
+  },
+  "calibration": {
+    "rise": 34.6685,
+    "tau": 196.1612,
+    "bias": -4.0,
+    "loss_ratio": 0.242389,
+    "commission_rmse_C": null,
+    "commission_samples": null,
+    "commission_duration_minutes": null,
+    "bound_warnings": [
+      "bias at lower bound",
+      "rise near upper bound",
+      "loss_ratio near upper bound",
+      "bias near lower bound"
+    ],
+    "provenance": "User-provided approximate pooled synthetic R05 + R11 prototype parameters; not independently verified asset commissioning. Prior reported RMSE approximately 1.2522 C, recomputed diagnostics in reports."
+  },
+  "quality": {
+    "issues": [
+      "REFERENCE_CALIBRATION_TRANSFER_UNVERIFIED"
+    ],
+    "thermalAssessable": true,
+    "inputTimestamp": "2026-04-16 19:05:00+05:30"
+  },
+  "digitalTwin": {
+    "version": "VoltMind_Operational_Observation_v1.0",
+    "healthIndex": 62.0,
+    "healthBand": "WATCH",
+    "riskScore": 38.0,
+    "riskLevel": "MODERATE",
+    "riskDrivers": [
+      "PHASE_LOADING",
+      "REFERENCE_CALIBRATION_UNCERTAINTY"
+    ],
+    "agingState": null,
+    "rulEstimate": null,
+    "maintenancePriority": "REVIEW_OPERATING_WARNING",
+    "maintenanceRecommendation": "Review phase loading, voltage and current balance against the active engineering warnings.",
+    "explanation": "Measured operating warnings: PHASE_LOADING. They do not establish transformer thermal failure. Synthetic reference calibration transfer is unverified; this index is provisional.",
+    "scoreScope": "Prototype operational observation index; not certified insulation health or failure probability.",
+    "formulaComponents": {
+      "observation_uncertainty": 10,
+      "reference_calibration_uncertainty": 10,
+      "thermal_alert": 0,
+      "electrical_warnings": 10,
+      "loading_stress": 8.046383923630637,
+      "positive_residual_stress": 0.0
+    },
+    "maxPhaseLoadingPct": 126.82127974543546,
+    "ratedCurrentA": 133.33724461654174,
+    "assessmentReliability": "REDUCED",
+    "thermalSeverity": "NO_MODEL_ALERT",
+    "inspectionUrgency": "OPERATING_REVIEW"
+  },
+  "sessionId": "628ec6c94e094bd6a088cc338b507a0f",
+  "sequence": 3398,
+  "source": {
+    "mode": "LOCAL",
+    "filename": "100kVA_SCADA_V2_BASIC.csv",
+    "datasetId": "local-100kva",
+    "replayId": "R05"
+  },
+  "processedAt": "2026-10-08T08:24:08.173102+00:00",
+  "replay": {
+    "sessionId": "628ec6c94e094bd6a088cc338b507a0f",
+    "status": "PAUSED",
+    "processedRows": 3398,
+    "totalRows": 4032,
+    "progressPct": 84.27579365079364,
+    "speed": 60,
+    "error": null,
+    "source": {
+      "mode": "LOCAL",
+      "filename": "100kVA_SCADA_V2_BASIC.csv",
+      "datasetId": "local-100kva",
+      "replayId": "R05"
+    },
+    "replayId": "R05",
+    "createdAt": "2026-10-08T08:22:56.336003+00:00",
+    "historyRetainedRows": 3398,
+    "historicalIntervalMinutes": 5,
+    "playbackSecondsPerRow": 0.016666666666666666,
+    "sequence": 3399
+  }
+}

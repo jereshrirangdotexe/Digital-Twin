@@ -1,0 +1,26 @@
+{
+  "order": [
+    "valid_asset_calibration",
+    "separate_verified_healthy_commissioning",
+    "frozen_reference"
+  ],
+  "never_assume_input_starts_healthy": true,
+  "ml_features": "Always frozen nominal reference; supplied calibration affects displayed twin only, not classifier feature definitions",
+  "minimum_commissioning_duration_min": 1440,
+  "minimum_samples": 288,
+  "rmse_limit_C": 3.0,
+  "bounds": {
+    "rise_K": [
+      20,
+      45
+    ],
+    "tau_min": [
+      80,
+      600
+    ],
+    "bias_C": [
+      -5,
+      5
+    ]
+  }
+}

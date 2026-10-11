@@ -1,0 +1,1927 @@
+{
+  "passed": true,
+  "checks": 480,
+  "failed": 0,
+  "tests": [
+    {
+      "check": "Frozen input commissioning/independent_healthy_core.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input DATASET_CARD.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/download_register.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/download_register_additional.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/download_register_final.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F03_vibration_paper.html",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F04_dataset_inventory.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F04_github_tree.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F04_README.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F04_sample_inspection.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F05_bushing_page.html",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F06_dry_images_page.html",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F07_zenodo.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F12_clamping.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F13_50kVA_tree.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F13_preprocessing_source_ONLY.txt",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F13_raw_inspection.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F13_readme_source_ONLY.txt",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F14_sen_simulation.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F15_HIL_shortcircuit.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/metadata/F20_download.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/other data sources.txt",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F01_oil_leakage_infrared.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F08_PD_substitution.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F13_50kVA_vibration.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F16_oil_images.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F17_100kVA_utility_spec_2026.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F18_110kV_bushing_experiments.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F19_100kVA_impedance.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/pdfs/F20_100kVA_core_looseness.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_40MVA/Barug2025_sensordata.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_40MVA/README.txt",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_0.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_1.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_2.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_3.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_4.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_5.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_6.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_7.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_8.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_9.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_50kVA_dry/AI2_data1280_process_8k.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/transfer_HIL/Electron_SUC3_S1_DifferentialProtection_TransformerSineWave.mat",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/00.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/01.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/02.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/03.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/04.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/05.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/06.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/07.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/08.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/09.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/10.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/11.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/12.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/13.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/14.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/15.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/16.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/17.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/raw_data/vibration_review_only/18.jsonl",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/reports/FINDINGS_AND_IMPLEMENTATION_PROPOSAL.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/reports/RAW_DATA_INSPECTION.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/reports/SOURCE_REGISTER.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input external_reference_only/vibration_descriptive_features_NOT_TARGET_INPUT.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/data_dictionary.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/DATASET_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/EXTERNAL_REFERENCE_MANIFEST.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/feature_allowlist.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/oil_control_split_index.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/parameter_provenance.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/PARENT_PRESERVATION.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/PRETRAIN_DATA_FREEZE.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/replay_split_index.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/REVIEW_INPUT.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/STAGE_STATUS.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/table_counts.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/two_hour_window_coverage.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/V4_ADDITION_PROVENANCE.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input metadata/virtual_asset_context.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input oil_controls/sealed_acceptance_inputs.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input oil_controls/train_inputs.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input oil_controls/validation_inputs.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input organiser/designed_threshold_boundary_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input organiser/independent_1s_bench_inputs.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input organiser/original_numeric_fixtures.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input organiser/simulated_status_delivery_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input organiser/simulated_trip_policy.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/100kva tech Specs.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/Draft Data for Condition Monitoring.xlsx",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/DT Problem Statement.pdf",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/E36_100kVA_DGA_prototype_case.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/E49_mineral_oil_published_test_points.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/existing_100kVA_PARAMETER_DECISIONS.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/existing_100kVA_PARAMETER_EVIDENCE.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/existing_100kVA_SOURCE_REGISTER.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/manufacturer_reported_factory_checks.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/ORGANISER_INTENT_AND_PRIORITY.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/other data sources.txt",
+      "passed": true
+    },
+    {
+      "check": "Frozen input references/source_register.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/build_scada_100kva_v3.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/build_scada_100kva_v4.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/build_scada_v4_review.mjs",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/document_scada_100kva_v4.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/freeze_scada_100kva_v4.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/PARENT_V3_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/PARENT_V3_OPTIONAL_COLUMNS.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/README.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/reproduce_v4.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/requirements.txt",
+      "passed": true
+    },
+    {
+      "check": "Frozen input reproduce/validate_scada_100kva_v4.py",
+      "passed": true
+    },
+    {
+      "check": "Frozen input scada/100kVA_SCADA_V4_FULL.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input scada/sealed_acceptance_core.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input scada/sealed_acceptance_full.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input scada/train_core.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input scada/train_full.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input scada/validation_core.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input scada/validation_full.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input SCADA_V4_REVIEW.xlsx",
+      "passed": true
+    },
+    {
+      "check": "Frozen input START_HERE.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input templates/bushing_inspection_and_tests_EMPTY.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input templates/impedance_test_results_EMPTY.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input templates/pressure_observations_EMPTY.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input templates/target_waveform_acquisition_EMPTY.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input transients/independent_2kHz_waveforms.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input transients/independent_fast_event_registry.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/events.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/external_vibration_folder_labels_NOT_TARGET.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/generator_profiles_NOT_INFERENCE.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/oil_control_events.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/sealed_acceptance_latent_and_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/sealed_acceptance_oil_control_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/sensor_attacks.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/train_latent_and_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/train_oil_control_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/transient_cases.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/validation_latent_and_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input truth_do_not_train/validation_oil_control_labels.csv",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/ENVIRONMENT.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/fields_preview.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/KILL_FIRST_RESULTS.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/KILL_FIRST_RESULTS.md",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/oil_preview.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/REPRODUCIBILITY.json",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/review_preview.png",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/SCADA_V4_REVIEW.xlsx.inspect.ndjson",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/WORKBOOK_INSPECTION.ndjson",
+      "passed": true
+    },
+    {
+      "check": "Frozen input validation/WORKBOOK_QA.json",
+      "passed": true
+    },
+    {
+      "check": "V4 dataset kill-first passed",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train redeb1c628a9e00f5",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets redeb1c628a9e00f5",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train rcc0d82eef44b3d85",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rcc0d82eef44b3d85",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r3ba68a71ae50cd09",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r3ba68a71ae50cd09",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r9cc4216220b97599",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r9cc4216220b97599",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r3975cdfd71c3cbf8",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r3975cdfd71c3cbf8",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r9f5353812d3a90c2",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r9f5353812d3a90c2",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r9098db1fcdb501cf",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r9098db1fcdb501cf",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r0854e41a97db938e",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r0854e41a97db938e",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r03d4cb934406dac0",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r03d4cb934406dac0",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r5cd60b6abfbcdd4a",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r5cd60b6abfbcdd4a",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r1a30206592f091d7",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r1a30206592f091d7",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r1437173151a4bfb0",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r1437173151a4bfb0",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r45eb5308c375122e",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r45eb5308c375122e",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train re2a7c719379494ff",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets re2a7c719379494ff",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train raa3125ea98e93d96",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets raa3125ea98e93d96",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r3a93bda2d1083545",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r3a93bda2d1083545",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train rbb79486b02818a09",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rbb79486b02818a09",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train re3f49ac022b39f29",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets re3f49ac022b39f29",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r85841a845cb64836",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r85841a845cb64836",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r106477bcca777d64",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r106477bcca777d64",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r479115a0d982630e",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r479115a0d982630e",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r38971e7d556a6b7a",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r38971e7d556a6b7a",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train rc826a6e7530ea784",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rc826a6e7530ea784",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train ra2a24c31f26f76cf",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets ra2a24c31f26f76cf",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r594af11371581f87",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r594af11371581f87",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r933e631633c3a940",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r933e631633c3a940",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r7d80fdc37005dbc4",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r7d80fdc37005dbc4",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train rf8284454fd70fc29",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rf8284454fd70fc29",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train raa5c536189746ed4",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets raa5c536189746ed4",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r046cf16b199a2d01",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r046cf16b199a2d01",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r3601bef286f7cc47",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r3601bef286f7cc47",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r3e4cebdf88e04e1c",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r3e4cebdf88e04e1c",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r715ae262642f4a2c",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r715ae262642f4a2c",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r8df68e0af4f6857c",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r8df68e0af4f6857c",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train r8b032db838c2ba2a",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r8b032db838c2ba2a",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys train raa9c6ace5428d591",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets raa9c6ace5428d591",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o535139487761c297",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob4ac47019b57a50f",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6a840e809def958d",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o868c9a9237e320ba",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o75df260c8b8ab601",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oc0a3e572c7eaa1b9",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oc8a1919d70c4a81b",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o433357e17c4bd828",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oa32532c69d78adf5",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o68530d9d9200aa36",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o733b5b925f3f8371",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oef35b5711c4cd472",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o9b1a8cf7b16e9420",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o8fbaa703a53fa319",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oaee9a7736e7ffab6",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oc72b36baf8297688",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o4d65e2b73ff4ff63",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o70f867029c4b03fe",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o08cb9caf6aaa0469",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys odaf80111780d1d1c",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys od7bdebdfaaac64e3",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o53dcdf1eddbf7cf8",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o74a7c134bbc3c680",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o979cb1b685f9ca8c",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oa48085c26fdf6a34",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o5a7fd69775406b61",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o12013b38f1552e20",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o597a931c71d7d59d",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6ba7afa9fb46caaa",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oa1c7f5d3b29c29a8",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oa434ea35cbcad497",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o864e6de82f06c9a3",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o5cb1733ceca49f12",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ocd73b529f3bfe861",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o9669fc98ea7a1bb9",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys of04bdbce68b58f5a",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6b5360712c20ff97",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o7dac091f9c9b9319",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ocf9937d622168028",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob6b5b51962ed01ce",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o50943d12c18befe2",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o7505a7adc5b888fc",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oe8586ae9c669d425",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o3565438803fc84a7",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6119a24d40d73879",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob4e069c71d624306",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o8b7f6c042429ed2e",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o48e8d250a53e080b",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o66276393afb022cb",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o71a67d333653bfca",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oa3c314d4a58cb1fc",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oe84ccd7897927576",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6a2ce67e0fbf0200",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o89a3745a41691359",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oaed7f5014387e4ef",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6a4d80bcdcb0193d",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o7ae92eb71fdff0ea",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o2c93d3d9b2b110b4",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ofa104abe870afd4f",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o9fdc64834e8a3811",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o2be56600a1042cbe",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6baf9f86cdb8bc5f",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o28a457b3a9beecf6",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys obed99ddb2df2370a",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ofb82207882d31e57",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o9868105a48ce4660",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oe18c3bd74ca64274",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o40a4a75e569fe1b1",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob767d592cb0a3293",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o9fe716cd78a41cbe",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys od62aa6652479a83e",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o53d6f5ef9c987ade",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation rf9fee574b8e8faff",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rf9fee574b8e8faff",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match rf9fee574b8e8faff",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r618f027faf2d26a1",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r618f027faf2d26a1",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r618f027faf2d26a1",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r82e7eb31bebcac0b",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r82e7eb31bebcac0b",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r82e7eb31bebcac0b",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r1f7cb7359a78ba6f",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r1f7cb7359a78ba6f",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r1f7cb7359a78ba6f",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r92c9d85fa7c0a07c",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r92c9d85fa7c0a07c",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r92c9d85fa7c0a07c",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r07db07df25d99417",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r07db07df25d99417",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r07db07df25d99417",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r0407db191f27b909",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r0407db191f27b909",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r0407db191f27b909",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation ra12f86de380cc9ff",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets ra12f86de380cc9ff",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match ra12f86de380cc9ff",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation rfec9fa430c39ea26",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rfec9fa430c39ea26",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match rfec9fa430c39ea26",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r0d77d19926f11547",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r0d77d19926f11547",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r0d77d19926f11547",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation r05c12f87545e2555",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r05c12f87545e2555",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r05c12f87545e2555",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys validation ra82c481095616230",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets ra82c481095616230",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match ra82c481095616230",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o8ec06ef9c411e7e0",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys off457dc908844046",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oc4250ed66c6b5fd5",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o0d97fc023aa1e649",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o189c4a4e0a115b1f",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oc528b933b1d06775",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o183e273a80daa8dd",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oe9f5627930db2029",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o3b9921cf6ebcc388",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o350b1545e7ff75b8",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob3ad3d902e1cd860",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o4b41f2c7d057ca7d",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o933fb6dcf133e815",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys od13f44bd83a09839",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys od80eedc13f2b9353",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys od62f75bd58925d23",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oaae607346b0417cd",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o792b12b6e929207d",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys obd069f0010e39bd5",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o20920c1604f712f4",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ofecaee9952dc34e4",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o395f70af1ba9f1a7",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oeef55fb5b26a45e8",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o0a52c48969d14560",
+      "passed": true
+    },
+    {
+      "check": "Training and validation groups isolated",
+      "passed": true
+    },
+    {
+      "check": "thermal train labels have both classes",
+      "passed": true
+    },
+    {
+      "check": "thermal feature schema excludes truth",
+      "passed": true
+    },
+    {
+      "check": "thermal LR_four_feature_control converged",
+      "passed": true
+    },
+    {
+      "check": "thermal LR_C0.03_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "thermal LR_C0.03_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "thermal LR_C0.3_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "thermal LR_C0.3_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "thermal LR_C3_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "thermal LR_C3_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "oil train labels have both classes",
+      "passed": true
+    },
+    {
+      "check": "oil feature schema excludes truth",
+      "passed": true
+    },
+    {
+      "check": "oil LR_C0.03_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "oil LR_C0.03_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "oil LR_C0.3_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "oil LR_C0.3_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "oil LR_C3_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "oil LR_C3_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "terminal train labels have both classes",
+      "passed": true
+    },
+    {
+      "check": "terminal feature schema excludes truth",
+      "passed": true
+    },
+    {
+      "check": "terminal LR_C0.03_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "terminal LR_C0.03_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "terminal LR_C0.3_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "terminal LR_C0.3_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "terminal LR_C3_negative1 converged",
+      "passed": true
+    },
+    {
+      "check": "terminal LR_C3_negative3 converged",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r6410c873c70e93e6",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r6410c873c70e93e6",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r6410c873c70e93e6",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance rf9d40d8a38e287c4",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rf9d40d8a38e287c4",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match rf9d40d8a38e287c4",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r180414fefa9a8eff",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r180414fefa9a8eff",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r180414fefa9a8eff",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r0e4aac36536fa531",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r0e4aac36536fa531",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r0e4aac36536fa531",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance rb91c675de78ba893",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets rb91c675de78ba893",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match rb91c675de78ba893",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance ra8424a9cbdc66768",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets ra8424a9cbdc66768",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match ra8424a9cbdc66768",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r214776b461322f43",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r214776b461322f43",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r214776b461322f43",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r6eb3263b623c8e03",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r6eb3263b623c8e03",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r6eb3263b623c8e03",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r93bbb3d53a6dc965",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r93bbb3d53a6dc965",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r93bbb3d53a6dc965",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r5b043ac7b502f477",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r5b043ac7b502f477",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r5b043ac7b502f477",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r7ea0c5e4c80a2f2b",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r7ea0c5e4c80a2f2b",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r7ea0c5e4c80a2f2b",
+      "passed": true
+    },
+    {
+      "check": "Primary input-label keys sealed_acceptance r1a21cf842e36cda1",
+      "passed": true
+    },
+    {
+      "check": "Preserved thermal targets r1a21cf842e36cda1",
+      "passed": true
+    },
+    {
+      "check": "Cached original baseline input match r1a21cf842e36cda1",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oa6d96becfdd99ffb",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o8d1f019844608dfc",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oef9575d1ee01b1c1",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys of6ab566137542fc3",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o5034315b45b38dc8",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o3fdf7ac2bb5769c5",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob015d00675ba981d",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o4ce1b76babe10d10",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob0e273423ad4f422",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys of5bc80eeb4288c0b",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys of7db17548f788cc4",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o7dd8343013f260ca",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o0d794243a15d2fee",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o2ec90ed9d707d1cc",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o6552b33367d52421",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oe6094b7ce9cc0fbc",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oa5f45703ea3ff680",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oe94fa4594a2eb660",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob0ede8656a6794d3",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o1f0539ee1ed1a317",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys ob1e2dbc4cc3dcb98",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys of97ad019facdddd4",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys o7ec2c980caf6257e",
+      "passed": true
+    },
+    {
+      "check": "Control input-label keys oc2ca6f841b5ef1f7",
+      "passed": true
+    },
+    {
+      "check": "Regression group isolation",
+      "passed": true
+    },
+    {
+      "check": "Fresh parameter vector independent v4_fresh_00",
+      "passed": true
+    },
+    {
+      "check": "Fresh parameter vector independent v4_fresh_01",
+      "passed": true
+    },
+    {
+      "check": "Fresh parameter vector independent v4_fresh_02",
+      "passed": true
+    },
+    {
+      "check": "Fresh parameter vector independent v4_fresh_03",
+      "passed": true
+    },
+    {
+      "check": "Fresh parameter vector independent v4_fresh_04",
+      "passed": true
+    },
+    {
+      "check": "Fresh parameter vector independent v4_fresh_05",
+      "passed": true
+    },
+    {
+      "check": "Fresh test groups absent from development",
+      "passed": true
+    },
+    {
+      "check": "Future suffix cannot change prior scores",
+      "passed": true
+    },
+    {
+      "check": "Prefix and full-history predictions identical",
+      "passed": true
+    },
+    {
+      "check": "Extra columns and truth columns ignored",
+      "passed": true
+    },
+    {
+      "check": "Missing optional sensors abstain",
+      "passed": true
+    },
+    {
+      "check": "Missing optional sensors preserve thermal",
+      "passed": true
+    },
+    {
+      "check": "Missing required thermal sensor abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing calibration abstains thermal",
+      "passed": true
+    },
+    {
+      "check": "Mismatched calibration abstains thermal",
+      "passed": true
+    },
+    {
+      "check": "Unavailable flag overrides fabricated oil value",
+      "passed": true
+    },
+    {
+      "check": "IR_A invalid nan abstains",
+      "passed": true
+    },
+    {
+      "check": "IR_A invalid inf abstains",
+      "passed": true
+    },
+    {
+      "check": "IR_A invalid -9999 abstains",
+      "passed": true
+    },
+    {
+      "check": "oil_level_fraction invalid nan abstains",
+      "passed": true
+    },
+    {
+      "check": "oil_level_fraction invalid inf abstains",
+      "passed": true
+    },
+    {
+      "check": "oil_level_fraction invalid -9999 abstains",
+      "passed": true
+    },
+    {
+      "check": "terminal_R_surface_temp_C invalid nan abstains",
+      "passed": true
+    },
+    {
+      "check": "terminal_R_surface_temp_C invalid inf abstains",
+      "passed": true
+    },
+    {
+      "check": "terminal_R_surface_temp_C invalid -9999 abstains",
+      "passed": true
+    },
+    {
+      "check": "Communication loss abstains all heads",
+      "passed": true
+    },
+    {
+      "check": "Oil trend does not bridge missing measurements",
+      "passed": true
+    },
+    {
+      "check": "duplicate rejected",
+      "passed": true
+    },
+    {
+      "check": "reverse rejected",
+      "passed": true
+    },
+    {
+      "check": "gap rejected",
+      "passed": true
+    },
+    {
+      "check": "rating rejected",
+      "passed": true
+    },
+    {
+      "check": "Serialization predictions identical",
+      "passed": true
+    },
+    {
+      "check": "Artifact tamper rejected before unpickling",
+      "passed": true
+    },
+    {
+      "check": "All heads remain Logistic Regression",
+      "passed": true
+    },
+    {
+      "check": "Unsupported fault heads remain unassessed",
+      "passed": true
+    },
+    {
+      "check": "Locked model unchanged after all tests",
+      "passed": true
+    },
+    {
+      "check": "Live original model preserved",
+      "passed": true
+    },
+    {
+      "check": "Frozen V4 input manifest preserved",
+      "passed": true
+    }
+  ]
+}

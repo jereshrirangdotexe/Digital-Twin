@@ -1,0 +1,19 @@
+Current release: 100, 250 and 630 kVA are integrated. See docs/THREE_RATING_INTEGRATION.md and reports/630_INTEGRATION_VALIDATION.md for activation, native physics-detector scope, 24 × 8,064 rows and 336 two-hour summaries per 630-kVA replay. Earlier sections remain historical rating-specific instructions.
+
+Update: this document originally describes the 100-kVA integration. Both 100 and 250 kVA are now supported; see docs/MULTI_RATING_INTEGRATION.md for the separate 250-kVA model, 24 replays × 6,048 rows, current bases, 40-MiB/200,000-row limits and API. The existing presentation demonstrates 100 kVA; the live dashboard can demonstrate either rating.
+
+# Architecture and session ownership
+
+`React/Vite :5173 → Spring Boot :8080 → persistent Python :8765 → frozen model → downstream prototype Digital Twin → SSE → React`
+
+The Desktop DTBackend and Frontend2 projects are the selected source authorities (see PROJECT_INVENTORY.md). Spring Boot forwards only an explicit route allowlist and raw worker JSON, preserving nulls, thresholds and precision. React never executes Python or computes classifier features. The Python process loads the frozen artifact and creates one bounded causal runtime per intentionally selected session. It does not launch a new interpreter per sample.
+
+Local metadata preparation validates the actual CSV and lists assets without model inference. Uploads go to UUID-named files in controlled local storage; display filenames never become filesystem paths. Request limit is 20 MiB including multipart/configuration, maximum 100,000 rows/1,000 columns and ten usable uploaded datasets. Validation states are explicit. A ready uploaded dataset starts only through the frontend's intentional upload action. Failed upload files are removed. Orphan uploads are cleared on startup.
+
+One selected session is active per application worker. Each has a random session ID, per-asset model state, replay cursor, bounded 10,000-row history and backend alert transitions. Pause freezes the cursor, Resume continues it, Restart makes a new session, Stop clears selection. A source switch stops the prior session and clears frontend history, alerts and current state. Client generation tokens reject stale selection requests; every control and stream request requires the current session ID. This local prototype supports a single monitoring operator; multiple tabs can replace one another's session and are informed of that replacement.
+
+SSE reading events have monotonically increasing IDs. Reconnect uses Last-Event-ID/cursor and replays retained payloads; it never reruns model inference. After history retention has rolled over, only retained readings can be recovered. Frontend duplicate/stale events are rejected by session ID, generation and processed-row cursor. Disconnect changes stream status, retaining the selected session; a restarted worker rejects the old ID and the frontend clears the stale assessment. Refresh does not restore or automatically run a session; unload attempts to stop the owned session. An abrupt browser crash may leave the worker replay running until explicitly stopped or the service is restarted.
+
+Historical SCADA time and processing time are separate. Playback pacing is 1/speed seconds per row; it does not resample five-minute historical data. Charts can downsample rendered points, but backend history remains intact up to its retention bound. No model truth/events/profiles, automatic synthetic telemetry, database credentials or external telemetry service are used.
+
+The startup launcher records PID plus process creation time. Shutdown targets only matching package-owned processes, avoiding recycled PIDs. First installation downloads pinned dependencies through normal registries; the ZIP is self-contained source/data/model, not an offline bundle of Java/Python/Node runtimes.

@@ -1,0 +1,7 @@
+{
+  "score_strictly_greater_than": 0.962225144456,
+  "consecutive_rows": 1,
+  "warmup_samples": 288,
+  "quality_holdoff_samples": 12,
+  "score_is_calibrated": false
+}

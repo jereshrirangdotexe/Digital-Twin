@@ -1,0 +1,601 @@
+{
+  "metrics": [
+    [
+      "Primary SCADA rows",
+      241920
+    ],
+    [
+      "Primary full columns",
+      55
+    ],
+    [
+      "Additional oil-control rows",
+      69120
+    ],
+    [
+      "New oil-control histories",
+      120
+    ],
+    [
+      "Original parameter groups",
+      20
+    ],
+    [
+      "Primary histories",
+      60
+    ],
+    [
+      "Rows per primary history",
+      4032
+    ],
+    [
+      "Core sample interval (minutes)",
+      5
+    ],
+    [
+      "Health-index bucket (rows)",
+      24
+    ],
+    [
+      "Independent waveform samples",
+      120000
+    ],
+    [
+      "Kill-first checks passed",
+      79
+    ],
+    [
+      "Kill-first checks failed",
+      0
+    ]
+  ],
+  "coverage": [
+    [
+      "Oil level/leakage",
+      "Synthetic gauge + volume estimates",
+      "120 extra control histories; field validation missing"
+    ],
+    [
+      "LV terminal heating",
+      "Inherited simulated R-phase sensor",
+      "Y/B temperatures unavailable; internal bushing faults unassessed"
+    ],
+    [
+      "Pressure",
+      "Schema + flags + empty acquisition template",
+      "No matching operating pressure measurements"
+    ],
+    [
+      "Mechanical condition",
+      "Separate external vibration references",
+      "No measured target vibration; external raw units uncalibrated"
+    ],
+    [
+      "Short circuits",
+      "Independent external 3-phase simulation",
+      "No target internal-short or physical relay claim"
+    ],
+    [
+      "Percent impedance",
+      "Static specification context + empty test template",
+      "No measured deterioration series"
+    ],
+    [
+      "Hotspot/overload",
+      "Existing causal thermal estimate and load inputs",
+      "No measured target internal hotspot"
+    ]
+  ],
+  "preview": [
+    [
+      "2026-01-01 15:20:00+05:30",
+      50.0,
+      0.627436,
+      189.697175,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 15:25:00+05:30",
+      50.3,
+      0.633041,
+      189.821341,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 15:30:00+05:30",
+      50.4,
+      0.624948,
+      189.570302,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 15:35:00+05:30",
+      50.4,
+      0.628921,
+      189.686919,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 15:40:00+05:30",
+      50.6,
+      0.623939,
+      189.513818,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 15:45:00+05:30",
+      50.7,
+      0.632946,
+      189.764692,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 15:50:00+05:30",
+      50.8,
+      0.630702,
+      189.685399,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 15:55:00+05:30",
+      50.8,
+      null,
+      null,
+      null,
+      0
+    ],
+    [
+      "2026-01-01 16:00:00+05:30",
+      50.6,
+      0.623279,
+      189.494425,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:05:00+05:30",
+      50.7,
+      0.620758,
+      189.407,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:10:00+05:30",
+      50.8,
+      0.622055,
+      189.431627,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:15:00+05:30",
+      50.9,
+      0.619293,
+      189.337163,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:20:00+05:30",
+      51.2,
+      0.620786,
+      189.340694,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:25:00+05:30",
+      51.2,
+      0.619614,
+      189.306303,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:30:00+05:30",
+      51.1,
+      0.617619,
+      189.261196,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:35:00+05:30",
+      51.4,
+      0.618286,
+      189.240507,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:40:00+05:30",
+      51.2,
+      0.616188,
+      189.205819,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:45:00+05:30",
+      51.4,
+      0.611446,
+      189.039892,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:50:00+05:30",
+      51.5,
+      0.613052,
+      189.073578,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 16:55:00+05:30",
+      51.6,
+      0.605198,
+      188.829838,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 17:00:00+05:30",
+      51.5,
+      0.599804,
+      188.685025,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 17:05:00+05:30",
+      51.6,
+      0.604403,
+      188.806524,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 17:10:00+05:30",
+      51.7,
+      0.603254,
+      188.759462,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 17:15:00+05:30",
+      51.7,
+      0.603286,
+      188.760408,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 17:20:00+05:30",
+      51.8,
+      0.601288,
+      188.688424,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 17:25:00+05:30",
+      51.6,
+      null,
+      null,
+      null,
+      0
+    ],
+    [
+      "2026-01-01 17:30:00+05:30",
+      51.9,
+      0.592473,
+      188.416579,
+      null,
+      1
+    ],
+    [
+      "2026-01-01 17:35:00+05:30",
+      52.1,
+      0.597025,
+      188.52335,
+      null,
+      1
+    ]
+  ],
+  "preview_columns": [
+    "timestamp_IST",
+    "top_oil_temp_C",
+    "oil_level_fraction",
+    "oil_inventory_estimate_at_20C_L",
+    "oil_inventory_change_past_115min_L",
+    "oil_level_sensor_available"
+  ],
+  "fields": [
+    [
+      "replay_id",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "timestamp_IST",
+      "ISO8601 IST UTC+05:30",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "VR_V",
+      "V",
+      "simulated_sensor"
+    ],
+    [
+      "IR_A",
+      "A",
+      "simulated_sensor"
+    ],
+    [
+      "VY_V",
+      "V",
+      "simulated_sensor"
+    ],
+    [
+      "IY_A",
+      "A",
+      "simulated_sensor"
+    ],
+    [
+      "VB_V",
+      "V",
+      "simulated_sensor"
+    ],
+    [
+      "IB_A",
+      "A",
+      "simulated_sensor"
+    ],
+    [
+      "ambient_temp_C",
+      "degC",
+      "simulated_sensor"
+    ],
+    [
+      "top_oil_temp_C",
+      "degC",
+      "simulated_sensor"
+    ],
+    [
+      "communication_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "VLL_est_V",
+      "V",
+      "derived_not_default_input"
+    ],
+    [
+      "current_avg_A",
+      "A",
+      "derived_not_default_input"
+    ],
+    [
+      "apparent_power_est_kVA",
+      "kVA",
+      "derived_not_default_input"
+    ],
+    [
+      "loading_est_pct",
+      "percent",
+      "derived_not_default_input"
+    ],
+    [
+      "voltage_magnitude_unbalance_pct",
+      "percent",
+      "derived_not_default_input"
+    ],
+    [
+      "current_magnitude_unbalance_pct",
+      "percent",
+      "derived_not_default_input"
+    ],
+    [
+      "max_phase_current_loading_pct",
+      "percent",
+      "derived_not_default_input"
+    ],
+    [
+      "oil_level_fraction",
+      "fraction",
+      "simulated_optional_sensor"
+    ],
+    [
+      "terminal_R_surface_temp_C",
+      "degC",
+      "simulated_LV_terminal_sensor"
+    ],
+    [
+      "oil_level_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "terminal_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "operating_tank_gas_pressure_kPa",
+      "kPa gauge",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "mechanical_vibration_rms_m_s2",
+      "m/s^2",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "bushing_partial_discharge_pC",
+      "pC",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "measured_hotspot_temp_C",
+      "degC",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "hotspot_estimate_C",
+      "degC",
+      "causal_estimate_not_measured"
+    ],
+    [
+      "tank_pressure_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "vibration_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "bushing_PD_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "hotspot_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "pressure_relief_contact",
+      "identifier / metadata",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "pressure_relay_contact_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "bushing_capacitance_pF",
+      "pF",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "bushing_dielectric_test_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "bushing_tan_delta_pct",
+      "percent",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "bushing_leakage_current_mA",
+      "mA",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "bushing_leakage_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "measured_impedance_pct",
+      "percent",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "impedance_test_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "terminal_Y_surface_temp_C",
+      "degC",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "terminal_Y_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "terminal_B_surface_temp_C",
+      "degC",
+      "UNAVAILABLE_NOT_TRAINABLE"
+    ],
+    [
+      "terminal_B_sensor_available",
+      "0/1",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "pressure_sensor_position",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "pressure_reference",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "bushing_type_verified",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "vibration_window_id",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "fast_event_id",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "offline_test_id",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "data_origin",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ],
+    [
+      "oil_inventory_estimate_at_20C_L",
+      "L",
+      "causal_estimate"
+    ],
+    [
+      "oil_level_temperature_corrected_fraction",
+      "fraction",
+      "causal_estimate"
+    ],
+    [
+      "oil_inventory_change_past_115min_L",
+      "L",
+      "causal_estimate"
+    ],
+    [
+      "oil_estimate_quality",
+      "identifier / metadata",
+      "context_or_routing_not_predictor"
+    ]
+  ],
+  "metrics_source": "Frozen CSV tables and validation/KILL_FIRST_RESULTS.json"
+}

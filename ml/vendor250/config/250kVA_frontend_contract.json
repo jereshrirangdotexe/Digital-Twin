@@ -1,0 +1,691 @@
+{
+  "version": "1.0.0",
+  "fields": [
+    {
+      "name": "asset.id",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical id"
+    },
+    {
+      "name": "asset.ratingKVA",
+      "type": "number",
+      "unit": "kVA",
+      "nullable": false,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical ratingKVA"
+    },
+    {
+      "name": "asset.status",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "ONLINE",
+        "OFFLINE",
+        "UNKNOWN"
+      ],
+      "source": "SCADA",
+      "meaning": "Canonical status"
+    },
+    {
+      "name": "timestamp",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical timestamp; null means unknown"
+    },
+    {
+      "name": "telemetry.voltageR",
+      "type": "number",
+      "unit": "V",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical voltageR; null means unknown"
+    },
+    {
+      "name": "telemetry.voltageY",
+      "type": "number",
+      "unit": "V",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical voltageY; null means unknown"
+    },
+    {
+      "name": "telemetry.voltageB",
+      "type": "number",
+      "unit": "V",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical voltageB; null means unknown"
+    },
+    {
+      "name": "telemetry.currentR",
+      "type": "number",
+      "unit": "A",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical currentR; null means unknown"
+    },
+    {
+      "name": "telemetry.currentY",
+      "type": "number",
+      "unit": "A",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical currentY; null means unknown"
+    },
+    {
+      "name": "telemetry.currentB",
+      "type": "number",
+      "unit": "A",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical currentB; null means unknown"
+    },
+    {
+      "name": "telemetry.ambientTempC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical ambientTempC; null means unknown"
+    },
+    {
+      "name": "telemetry.topOilTempC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical topOilTempC; null means unknown"
+    },
+    {
+      "name": "telemetry.communicationAvailable",
+      "type": "boolean",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical communicationAvailable; null means unknown"
+    },
+    {
+      "name": "telemetry.loadingPct",
+      "type": "number",
+      "unit": "%",
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical loadingPct; null means unknown"
+    },
+    {
+      "name": "ml.expectedOilTempC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": true,
+      "enum": null,
+      "source": "THERMAL_MODEL",
+      "meaning": "Canonical expectedOilTempC; null means unknown"
+    },
+    {
+      "name": "ml.thermalResidualC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": true,
+      "enum": null,
+      "source": "THERMAL_MODEL",
+      "meaning": "Canonical thermalResidualC; null means unknown"
+    },
+    {
+      "name": "ml.thermalResidualTrendCPerMin",
+      "type": "number",
+      "unit": "degC/min",
+      "nullable": true,
+      "enum": null,
+      "source": "THERMAL_MODEL",
+      "meaning": "Canonical thermalResidualTrendCPerMin; null means unknown"
+    },
+    {
+      "name": "ml.thermalResidualMean30minC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": true,
+      "enum": null,
+      "source": "THERMAL_MODEL",
+      "meaning": "Canonical thermalResidualMean30minC; null means unknown"
+    },
+    {
+      "name": "ml.nominalModelResidualC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": true,
+      "enum": null,
+      "source": "THERMAL_MODEL",
+      "meaning": "Canonical nominalModelResidualC; null means unknown"
+    },
+    {
+      "name": "ml.thermalScore",
+      "type": "number",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Uncalibrated thermal-condition score, not failure probability"
+    },
+    {
+      "name": "ml.thermalDecisionMargin",
+      "type": "number",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical thermalDecisionMargin; null means unknown"
+    },
+    {
+      "name": "ml.thermalAlert",
+      "type": "boolean",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical thermalAlert; null means unknown"
+    },
+    {
+      "name": "ml.thermalState",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "NORMAL",
+        "THERMAL_ALERT",
+        "THERMAL_UNASSESSED"
+      ],
+      "source": "ML",
+      "meaning": "Canonical thermalState"
+    },
+    {
+      "name": "ml.phaseLoadingWarning",
+      "type": "boolean",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "ENGINEERING_SCREEN",
+      "meaning": "Canonical phaseLoadingWarning; null means unknown"
+    },
+    {
+      "name": "ml.undervoltageWarning",
+      "type": "boolean",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "ENGINEERING_SCREEN",
+      "meaning": "Canonical undervoltageWarning; null means unknown"
+    },
+    {
+      "name": "ml.imbalanceWarning",
+      "type": "boolean",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "ENGINEERING_SCREEN",
+      "meaning": "Canonical imbalanceWarning; null means unknown"
+    },
+    {
+      "name": "ml.electricalState",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "NORMAL",
+        "PHASE_LOADING_WARNING",
+        "UNDERVOLTAGE_WARNING",
+        "IMBALANCE_WARNING",
+        "MULTIPLE_WARNINGS",
+        "UNASSESSED"
+      ],
+      "source": "ENGINEERING_SCREEN",
+      "meaning": "Canonical electricalState"
+    },
+    {
+      "name": "ml.dataConfidence",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "GOOD",
+        "REDUCED",
+        "UNAVAILABLE"
+      ],
+      "source": "DATA_QUALITY",
+      "meaning": "Canonical dataConfidence"
+    },
+    {
+      "name": "ml.assetCondition",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "NORMAL",
+        "THERMAL_CONDITION_ALERT",
+        "ELECTRICAL_CONDITION_ALERT",
+        "MULTIPLE_CONDITIONS",
+        "SENSOR_SUSPECT",
+        "UNASSESSED"
+      ],
+      "source": "ML",
+      "meaning": "Canonical assetCondition"
+    },
+    {
+      "name": "ml.calibrationStatus",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "ASSET_SPECIFIC",
+        "VERIFIED_COMMISSIONED",
+        "REFERENCE_CALIBRATION",
+        "NOT_CALIBRATED",
+        "INVALID"
+      ],
+      "source": "ML",
+      "meaning": "Canonical calibrationStatus"
+    },
+    {
+      "name": "ml.warmupStatus",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "WARMING_UP",
+        "READY"
+      ],
+      "source": "DATA_QUALITY",
+      "meaning": "Canonical warmupStatus"
+    },
+    {
+      "name": "ml.modelVersion",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical modelVersion"
+    },
+    {
+      "name": "ml.modelStatus",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "COMPETITION_PROTOTYPE_LOCKED"
+      ],
+      "source": "ML",
+      "meaning": "Canonical modelStatus"
+    },
+    {
+      "name": "ml.runtimeVersion",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical runtimeVersion"
+    },
+    {
+      "name": "ml.lowOilGaugeAssessment",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "UNSUPPORTED_BASIC"
+      ],
+      "source": "ML",
+      "meaning": "Canonical lowOilGaugeAssessment"
+    },
+    {
+      "name": "diagnostics",
+      "type": "array",
+      "unit": null,
+      "nullable": false,
+      "enum": null,
+      "source": "DATA_QUALITY",
+      "meaning": "Canonical diagnostics"
+    },
+    {
+      "name": "failed",
+      "type": "boolean",
+      "unit": null,
+      "nullable": false,
+      "enum": null,
+      "source": "DATA_QUALITY",
+      "meaning": "Canonical failed"
+    },
+    {
+      "name": "digitalTwin.healthIndex",
+      "type": "number",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    },
+    {
+      "name": "digitalTwin.healthBand",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    },
+    {
+      "name": "digitalTwin.riskScore",
+      "type": "number",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    },
+    {
+      "name": "digitalTwin.riskLevel",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    },
+    {
+      "name": "digitalTwin.agingState",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    },
+    {
+      "name": "digitalTwin.maintenancePriority",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    },
+    {
+      "name": "digitalTwin.maintenanceRecommendation",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    },
+    {
+      "name": "digitalTwin.explanation",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "DIGITAL_TWIN",
+      "meaning": "Reserved downstream field; ML does not invent this value"
+    }
+  ],
+  "unknown_semantics": "JSON null; never substitute zero or false for unavailable signals",
+  "score_semantics": "uncalibrated condition score",
+  "ordering": "One payload per input row in original order",
+  "history_fields": [
+    "timestamp",
+    "actualOilTempC",
+    "expectedOilTempC",
+    "thermalResidualC",
+    "thermalScore",
+    "thermalState",
+    "electricalState",
+    "dataConfidence",
+    "voltageR",
+    "voltageY",
+    "voltageB",
+    "currentR",
+    "currentY",
+    "currentB",
+    "ambientTempC",
+    "topOilTempC",
+    "loadingPct"
+  ],
+  "history_field_definitions": [
+    {
+      "name": "history.timestamp",
+      "type": "string",
+      "unit": null,
+      "nullable": true,
+      "enum": null,
+      "source": "SCADA",
+      "meaning": "Canonical timestamp; null means unknown"
+    },
+    {
+      "name": "history.actualOilTempC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical actualOilTempC"
+    },
+    {
+      "name": "history.expectedOilTempC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": false,
+      "enum": null,
+      "source": "THERMAL_MODEL",
+      "meaning": "Canonical expectedOilTempC"
+    },
+    {
+      "name": "history.thermalResidualC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": false,
+      "enum": null,
+      "source": "THERMAL_MODEL",
+      "meaning": "Canonical thermalResidualC"
+    },
+    {
+      "name": "history.thermalScore",
+      "type": "number",
+      "unit": null,
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Uncalibrated thermal-condition score, not failure probability"
+    },
+    {
+      "name": "history.thermalState",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "NORMAL",
+        "THERMAL_ALERT",
+        "THERMAL_UNASSESSED"
+      ],
+      "source": "ML",
+      "meaning": "Canonical thermalState"
+    },
+    {
+      "name": "history.electricalState",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "NORMAL",
+        "PHASE_LOADING_WARNING",
+        "UNDERVOLTAGE_WARNING",
+        "IMBALANCE_WARNING",
+        "MULTIPLE_WARNINGS",
+        "UNASSESSED"
+      ],
+      "source": "ENGINEERING_SCREEN",
+      "meaning": "Canonical electricalState"
+    },
+    {
+      "name": "history.dataConfidence",
+      "type": "string",
+      "unit": null,
+      "nullable": false,
+      "enum": [
+        "GOOD",
+        "REDUCED",
+        "UNAVAILABLE"
+      ],
+      "source": "DATA_QUALITY",
+      "meaning": "Canonical dataConfidence"
+    },
+    {
+      "name": "history.voltageR",
+      "type": "number",
+      "unit": "V",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical voltageR"
+    },
+    {
+      "name": "history.voltageY",
+      "type": "number",
+      "unit": "V",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical voltageY"
+    },
+    {
+      "name": "history.voltageB",
+      "type": "number",
+      "unit": "V",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical voltageB"
+    },
+    {
+      "name": "history.currentR",
+      "type": "number",
+      "unit": "A",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical currentR"
+    },
+    {
+      "name": "history.currentY",
+      "type": "number",
+      "unit": "A",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical currentY"
+    },
+    {
+      "name": "history.currentB",
+      "type": "number",
+      "unit": "A",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical currentB"
+    },
+    {
+      "name": "history.ambientTempC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical ambientTempC"
+    },
+    {
+      "name": "history.topOilTempC",
+      "type": "number",
+      "unit": "degC",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical topOilTempC"
+    },
+    {
+      "name": "history.loadingPct",
+      "type": "number",
+      "unit": "%",
+      "nullable": false,
+      "enum": null,
+      "source": "ML",
+      "meaning": "Canonical loadingPct"
+    }
+  ],
+  "enums": {
+    "thermalState": [
+      "NORMAL",
+      "THERMAL_ALERT",
+      "THERMAL_UNASSESSED"
+    ],
+    "electricalState": [
+      "NORMAL",
+      "PHASE_LOADING_WARNING",
+      "UNDERVOLTAGE_WARNING",
+      "IMBALANCE_WARNING",
+      "MULTIPLE_WARNINGS",
+      "UNASSESSED"
+    ],
+    "dataConfidence": [
+      "GOOD",
+      "REDUCED",
+      "UNAVAILABLE"
+    ],
+    "warmupStatus": [
+      "WARMING_UP",
+      "READY"
+    ],
+    "calibrationStatus": [
+      "ASSET_SPECIFIC",
+      "VERIFIED_COMMISSIONED",
+      "REFERENCE_CALIBRATION",
+      "NOT_CALIBRATED",
+      "INVALID"
+    ],
+    "assetCondition": [
+      "NORMAL",
+      "THERMAL_CONDITION_ALERT",
+      "ELECTRICAL_CONDITION_ALERT",
+      "MULTIPLE_CONDITIONS",
+      "SENSOR_SUSPECT",
+      "UNASSESSED"
+    ],
+    "modelStatus": [
+      "COMPETITION_PROTOTYPE_LOCKED"
+    ],
+    "status": [
+      "ONLINE",
+      "OFFLINE",
+      "UNKNOWN"
+    ],
+    "lowOilGaugeAssessment": [
+      "UNSUPPORTED_BASIC"
+    ]
+  }
+}

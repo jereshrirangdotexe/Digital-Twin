@@ -1,0 +1,7 @@
+table,rows,replays,origin
+scada/train_full.csv,145152,36,SYNTHETIC
+scada/validation_full.csv,48384,12,SYNTHETIC
+scada/sealed_acceptance_full.csv,48384,12,SYNTHETIC
+oil_controls/train_inputs.csv,41472,72,SYNTHETIC
+oil_controls/validation_inputs.csv,13824,24,SYNTHETIC
+oil_controls/sealed_acceptance_inputs.csv,13824,24,SYNTHETIC

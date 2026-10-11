@@ -1,0 +1,22 @@
+{
+  "release": "VoltMind_100kVA_SCADA_V4_2026-10-11",
+  "dataset_creation_authorized": true,
+  "training_authorized": false,
+  "training_started": false,
+  "tournament_started": false,
+  "deployed": false,
+  "primary_rows": 241920,
+  "primary_columns": 55,
+  "additional_oil_rows": 69120,
+  "total_primary_and_control_rows": 311040,
+  "kill_first_checks_passed": 79,
+  "kill_first_checks_failed": 0,
+  "csv_files_byte_reproduced": 44,
+  "core_interval_seconds": 300,
+  "HI_bucket_rows": 24,
+  "parent_groups_reused": true,
+  "fresh_untouched_acceptance_claim": false,
+  "main_csv_sha256": "3339cbf278bf61cc556c237fb7dde7e57bac07f2ea0b7467760acbc47f70d6d9",
+  "contract_sha256": "372030064ddd9ac59ea5f09d0abecaa2b58877dbe4bdda5d051e59ae0ef38549",
+  "training_gate": "Separate user approval required after dataset review; no model performance evaluated."
+}

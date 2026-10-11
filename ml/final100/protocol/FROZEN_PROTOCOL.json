@@ -1,0 +1,70 @@
+{
+  "frozen_before_fit_utc": "2026-10-10T20:49:40.333948+00:00",
+  "user_authorized_training": true,
+  "dataset": "VoltMind_100kVA_SCADA_V4_2026-10-11",
+  "dataset_manifest_sha256": "c41ff783d50c949e3dd5dca04beac6e6304acca3da4a66509b157dde6b6be93d",
+  "seed": 11102026,
+  "fresh_seed": 61112026,
+  "family": "LogisticRegression only; seven thermal and six each optional representations/regularizations",
+  "training": "V4 train primary and train oil controls only. No old V2 training additions.",
+  "selection": "Fixed C .03/.3/3, negative weights 1/3, thermal FOUR control, thresholds .2/.4/.6/.8/.9/.95/.98/.995 and persistence 3/6. Validation only.",
+  "thermal_rank": "Number failed fixed primary gates; severe misses; total misses; false episodes/day; delay. Stable configuration order breaks ties.",
+  "optional_rank": "Precision >=.8 and assessable-row recall >=.8, then whole-set F1, precision, false episodes/day. Coverage always reported; sensor absence cannot be cured by model.",
+  "thermal_gates": {
+    "event_recall_min": 0.8,
+    "severe_event_recall_min": 0.9,
+    "false_episodes_negative_day_max": 0.25,
+    "coverage_min": 0.85,
+    "median_delay_min_max": 90,
+    "row_precision_min": 0.6
+  },
+  "labels": "Thermal same-load excess >=2C sustained3 vs <=1C; oil physical inventory loss>=2L vs <=1L; terminal injected high-contact-resistance heating. Gray zones excluded. Latent values ONLY label construction.",
+  "inputs": {
+    "thermal": [
+      "residual_C",
+      "residual_mean_30min_C",
+      "residual_mean_60min_C",
+      "residual_change_30min_C",
+      "residual_mean_180min_C",
+      "residual_std_60min_C",
+      "residual_change_5min_C",
+      "oil_change_30min_C",
+      "oil_change_60min_C",
+      "ambient_change_30min_C",
+      "load_sq",
+      "load_sq_mean_60min",
+      "load_sq_change_30min",
+      "oil_rise_K",
+      "expected_oil_rise_K",
+      "current_imbalance_pct",
+      "voltage_min_pu",
+      "oil_flatline_samples"
+    ],
+    "oil": [
+      "inventory_deficit_L",
+      "inventory_change_115min_L",
+      "inventory_change_30min_L",
+      "inventory_mean_60min_L",
+      "inventory_std_60min_L",
+      "level_fraction",
+      "oil_temperature_C",
+      "level_flat_samples"
+    ],
+    "terminal": [
+      "terminal_rise_K",
+      "current_R_sq_A2",
+      "terminal_change_30min_C",
+      "ambient_temp_C",
+      "terminal_excess_nominal_K"
+    ]
+  },
+  "test": "Legacy sealed_acceptance already used in earlier rounds is regression only. Newly sampled six profiles and seeds are generated after model lock, once, same simulator; no field generalisation claim.",
+  "feature_logic": "Extra sensors train separate optional LR heads, never contaminate thermal target; oil and terminal are suspected physical conditions, not confirmation of leakage/internal bushing cause.",
+  "kill_first": "Verify data hashes and group isolation before fit; after lock suffix/prefix, oracle columns, missing/invalid sensors, availability, cadence, calibration, model tamper and serialization attacks.",
+  "oil_geometry": "Fixed 190L reference, 30L effective gauge and beta .000725/K from V4 assumptions. Hardware calibration required before operational use.",
+  "unsupported": "Tank pressure, internal bushing, calibrated vibration, measured hotspot/impedance and internal shorts have no trained detectors; external references excluded.",
+  "deployment": false,
+  "live_model_sha256": "e28ca99b1a9be248cea992362ec096bee137bdda321b3476471f4d448afbe831",
+  "no_post_test_tuning": true,
+  "scores": "uncalibrated detector scores, not failure probabilities"
+}

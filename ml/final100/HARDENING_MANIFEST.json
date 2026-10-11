@@ -1,0 +1,12 @@
+{
+  "version": "V4 input hardening 2026-10-11",
+  "model_sha256": "cf9bcd7f7190ebccab74423b66e66944f4b1ad8cc90684b9d6772dc5b5b08e18",
+  "original_model_sha256": "cf9bcd7f7190ebccab74423b66e66944f4b1ad8cc90684b9d6772dc5b5b08e18",
+  "model_weights_changed": false,
+  "dataset_changed": false,
+  "input_adapter": "runtime/voltmind_v4_input_adapter.py",
+  "compatibility_checks_passed": 81,
+  "full_regression_rows": 311040,
+  "deployed": false,
+  "field_validated": false
+}

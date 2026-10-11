@@ -1,0 +1,37 @@
+{
+  "rating_kVA": 100,
+  "interval_minutes": 5,
+  "one_asset_per_call": true,
+  "required_inputs": {
+    "replay_id": "string; history routing only",
+    "timestamp_IST": "ordered timestamp with timezone",
+    "VR_V": "phase-neutral RMS volts",
+    "VY_V": "phase-neutral RMS volts",
+    "VB_V": "phase-neutral RMS volts",
+    "IR_A": "RMS amperes",
+    "IY_A": "RMS amperes",
+    "IB_A": "RMS amperes",
+    "ambient_temp_C": "degrees C",
+    "top_oil_temp_C": "genuine oil probe degrees C"
+  },
+  "optional_context": {
+    "communication_available": "0/1; missing packets must still have a timestamped row"
+  },
+  "feature_order": [
+    "residual_C",
+    "residual_mean_30min_C",
+    "residual_mean_60min_C",
+    "residual_change_30min_C"
+  ],
+  "feature_unit": "degrees C for all four features",
+  "missingness": "Required columns must exist; later missing values lead to abstention/clean holdoff. First snapshot must have complete current/ambient/oil drivers.",
+  "warmup_samples": 288,
+  "clean_holdoff_samples": 12,
+  "history_features": {
+    "mean_30min": 6,
+    "mean_60min": 12,
+    "change_30min": 6
+  },
+  "normalization": "Raw sensor units; packaged pipeline applies train-only median imputation and standard scaling",
+  "calibration": "Separate independently verified healthy commissioning required; minimum7days, benchmark uses14days; never calibrate from oracle profiles or event-bearing test trace"
+}

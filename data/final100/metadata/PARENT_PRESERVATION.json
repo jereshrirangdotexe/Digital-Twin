@@ -1,0 +1,112 @@
+[
+  {
+    "path": "commissioning/independent_healthy_core.csv",
+    "parent_path": "commissioning/independent_healthy_core.csv",
+    "sha256": "f5c7d1f33befb2fdf79eb6cd1aef9b059d4109828b125aa00cb3a948a1c18e5d"
+  },
+  {
+    "path": "organiser/designed_threshold_boundary_cases.csv",
+    "parent_path": "organiser/designed_threshold_boundary_cases.csv",
+    "sha256": "508e68d7a88d888589cdc2851ba4e8dc68ac741f01d0dcc2c4668ebc2297d842"
+  },
+  {
+    "path": "organiser/independent_1s_bench_inputs.csv",
+    "parent_path": "organiser/independent_1s_bench_inputs.csv",
+    "sha256": "f60edac1ef531d848d1a118cb3a4a5402c3672f4f1ac08dc39102139317a5970"
+  },
+  {
+    "path": "organiser/original_numeric_fixtures.csv",
+    "parent_path": "organiser/original_numeric_fixtures.csv",
+    "sha256": "b953f8b3d0334ad49bad76e3172b1432270a548364f72d936413fde4750d0df1"
+  },
+  {
+    "path": "organiser/simulated_status_delivery_cases.csv",
+    "parent_path": "organiser/simulated_status_delivery_cases.csv",
+    "sha256": "6af11a98aa1b7ecaba2a27bd7c8ef37dffc290c6dc4ffe4a9d456e32c67160a3"
+  },
+  {
+    "path": "organiser/simulated_trip_policy.json",
+    "parent_path": "organiser/simulated_trip_policy.json",
+    "sha256": "bbb81c9f3335a955ce846ff939989e5fa22d65f743c86f5a878623406bbd5cb7"
+  },
+  {
+    "path": "references/100kva tech Specs.pdf",
+    "parent_path": "references/100kva tech Specs.pdf",
+    "sha256": "af43547c93c082faa8eb030d48eaf9bb081088e10167e100dc38b6a8e32d8f87"
+  },
+  {
+    "path": "references/Draft Data for Condition Monitoring.xlsx",
+    "parent_path": "references/Draft Data for Condition Monitoring.xlsx",
+    "sha256": "c532b52dbf6f52c8edbc9111915983fbcae3ae53482a03c8f26123ce87a35a2d"
+  },
+  {
+    "path": "references/DT Problem Statement.pdf",
+    "parent_path": "references/DT Problem Statement.pdf",
+    "sha256": "8a98651b2b89b9dc9fbef1e865a6b8565305d01911b9b16dab3f6058837e9ef1"
+  },
+  {
+    "path": "references/E36_100kVA_DGA_prototype_case.json",
+    "parent_path": "references/E36_100kVA_DGA_prototype_case.json",
+    "sha256": "a8602d11d56f2b0277373cb4d4d5d62203ef2b801d9d56995838b835b630520d"
+  },
+  {
+    "path": "references/E49_mineral_oil_published_test_points.json",
+    "parent_path": "references/E49_mineral_oil_published_test_points.json",
+    "sha256": "c4b248b832146cc274357b8453b01ab977a36d53935d45471190828531a0cec3"
+  },
+  {
+    "path": "references/existing_100kVA_PARAMETER_DECISIONS.md",
+    "parent_path": "references/existing_100kVA_PARAMETER_DECISIONS.md",
+    "sha256": "7dc338136d5a48cc0c07ece8144cbdff0a17b491d2ca1d7689f2308066a61fad"
+  },
+  {
+    "path": "references/existing_100kVA_PARAMETER_EVIDENCE.csv",
+    "parent_path": "references/existing_100kVA_PARAMETER_EVIDENCE.csv",
+    "sha256": "ef343883b1f31f2655e73395f42fb81712bb7764e3a4fd4e1607ab401bb92007"
+  },
+  {
+    "path": "references/existing_100kVA_SOURCE_REGISTER.csv",
+    "parent_path": "references/existing_100kVA_SOURCE_REGISTER.csv",
+    "sha256": "cc408ba179450e7d5fb9ecf8b0c50bc9c777ce9e1d91f60a329f45bb88303700"
+  },
+  {
+    "path": "references/manufacturer_reported_factory_checks.json",
+    "parent_path": "references/manufacturer_reported_factory_checks.json",
+    "sha256": "81c6e21d01e39c0d0060d8cea0028834552d2b125a43c49dd412efbb26705ffb"
+  },
+  {
+    "path": "references/ORGANISER_INTENT_AND_PRIORITY.md",
+    "parent_path": "references/ORGANISER_INTENT_AND_PRIORITY.md",
+    "sha256": "1467f22aa75ba9e83ee00b6b73dbc41e2558556095c07e0198dc4d70bcfd0905"
+  },
+  {
+    "path": "references/other data sources.txt",
+    "parent_path": "references/other data sources.txt",
+    "sha256": "263f020700e788ae5f89cdbf0ed50f6eda8144bf5b85c77a465da914bf4cd02b"
+  },
+  {
+    "path": "references/source_register.csv",
+    "parent_path": "references/source_register.csv",
+    "sha256": "c93a649459ec59545ac61bf30ec41f1bf083c6a33c9893a065016cfb984c3169"
+  },
+  {
+    "path": "transients/independent_2kHz_waveforms.csv",
+    "parent_path": "transients/independent_2kHz_waveforms.csv",
+    "sha256": "be9ad8e77fc3ce75422db30b7f304b0b4a6b60a41cf430fd9521bdf9bb6b841d"
+  },
+  {
+    "path": "scada/train_core.csv",
+    "parent_path": "scada/train_core.csv",
+    "sha256": "6e18c2d7224e80361b5b72d81f005311426cafdbdb012da15b4135bccacdaecc"
+  },
+  {
+    "path": "scada/validation_core.csv",
+    "parent_path": "scada/validation_core.csv",
+    "sha256": "0e0316fe5300866cf9f8ff017cdda2d399e6dc4f0bbed6acd1221fa5b42c7f40"
+  },
+  {
+    "path": "scada/sealed_acceptance_core.csv",
+    "parent_path": "scada/sealed_acceptance_core.csv",
+    "sha256": "f7ce210db736f1b6990f4e83c9ff054d725403d0743e7ef08c7b0aa3e96d1794"
+  }
+]

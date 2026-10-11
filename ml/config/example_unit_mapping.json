@@ -1,0 +1,10 @@
+{
+  "voltage_r_v": "V",
+  "voltage_y_v": "V",
+  "voltage_b_v": "V",
+  "current_r_a": "A",
+  "current_y_a": "A",
+  "current_b_a": "A",
+  "ambient_temp_c": "C",
+  "top_oil_temp_c": "C"
+}

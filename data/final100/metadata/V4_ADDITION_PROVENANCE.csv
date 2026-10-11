@@ -1,0 +1,12 @@
+parameter,value,evidence_status,source_or_locator
+Oil geometry,"190 L reference, 30 L effective gauge",Inherited simulator assumption,V3 parameter provenance; not factory calibration
+Input expansion coefficient,0.000725 / K,Fixed provisional configuration,Midpoint of inherited stress range; no new fit
+Leak controls,0.35–0.8 L/hour for 12 hours,Inherited exploratory severity,"V3 designed test range, not field rate"
+Refill controls,2–5 L single addition at hour 24,New explicit test assumption,No real refill progression recovered
+Gauge bias,±0.06–0.14 fraction for 12 hours,New explicit sensor stress,Not a sensor specification
+Gauge stuck,Hold last preceding reading for 12 hours,New explicit sensor stress,Inventory unchanged
+Oil missingness,2% independent missing samples,Inherited designed stress,Absent sensor case missing throughout
+Tank pressure and internal bushing,Unavailable,No matching target data recovered,F01–F20 research applicability report
+External measured thermal/clamping,"40 MVA, hourly, 2024",SINTEF CC BY 4.0,https://zenodo.org/records/17223516
+External vibration sample,"19 unit folders, 129 channel records",Raw units; rating not verified,https://github.com/Jarry-ool/Paper-code
+50 kVA dry-type measurements,10 original MAT files plus processed data,Reference only; class mapping/license unresolved,https://github.com/ldcrchao/chao

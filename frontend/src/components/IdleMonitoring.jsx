@@ -1,0 +1,4 @@
+import TelemetryChart from './TelemetryChart'
+export default function IdleMonitoring({ rating = 100 }) {
+  return <div className="editorial-page"><section className="section-frame light-section idle-monitoring"><div className="hero-kicker-row"><span>MONITORING / IDLE</span><span>{rating}-kVA LOCKED MODEL</span></div><h1 className="display-title idle-title">NO ACTIVE<br />MONITORING SESSION</h1><p className="hero-intro">Choose a data source to begin transformer monitoring.</p><div className="idle-readings">{['Health Index', 'Risk', 'Oil temperature', 'Expected temperature', 'Data confidence', 'Maintenance priority'].map((label) => <div key={label}><span>{label}</span><strong>UNAVAILABLE</strong></div>)}</div><TelemetryChart history={[]} metric="temperature" title="ACTUAL VS EXPECTED TEMPERATURE" allowSelector={false} /></section></div>
+}

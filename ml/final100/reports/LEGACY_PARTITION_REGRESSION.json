@@ -1,0 +1,130 @@
+{
+  "thermal": {
+    "events": 22,
+    "detected_events": 22,
+    "missed_events": 0,
+    "event_recall": 1.0,
+    "severe_events": 21,
+    "severe_misses": 0,
+    "severe_event_recall": 1.0,
+    "median_onset_delay_min": 82.5,
+    "p90_onset_delay_min": 284.5000000000001,
+    "false_episodes": 16,
+    "negative_truth_days": 143.26041666666666,
+    "false_episodes_per_negative_day": 0.11168472333309097,
+    "coverage": 0.9329323743386243,
+    "unassessed_rows": 3245,
+    "rows": 48384,
+    "row_precision": 0.9347043701799486,
+    "row_recall_including_unassessed_as_misses": 0.8501948558067031,
+    "true_positive_rows": 5454,
+    "false_positive_rows": 381
+  },
+  "oil": {
+    "precision": 0.9921695323622823,
+    "recall_including_unassessed": 0.5614116626386565,
+    "recall_assessable_rows": 0.9576638477801268,
+    "f1": 0.7170729776792781,
+    "coverage": 0.565039866255144,
+    "rows": 62208,
+    "tp_rows": 18119,
+    "fp_rows": 143,
+    "fn_rows": 14155,
+    "false_episodes_per_negative_day": 0.0486568677141409,
+    "passes": true,
+    "strata": {
+      "primary": {
+        "rows": 48384,
+        "assessed": 27633,
+        "false_positive_rows": 0,
+        "positive_rows": 30914,
+        "true_positive_rows": 17237
+      },
+      "normal_temperature_cycle": {
+        "rows": 2304,
+        "assessed": 1557,
+        "false_positive_rows": 0,
+        "positive_rows": 0,
+        "true_positive_rows": 0
+      },
+      "gradual_oil_depletion": {
+        "rows": 2304,
+        "assessed": 1429,
+        "false_positive_rows": 0,
+        "positive_rows": 1360,
+        "true_positive_rows": 882
+      },
+      "documented_refill": {
+        "rows": 2304,
+        "assessed": 1525,
+        "false_positive_rows": 0,
+        "positive_rows": 0,
+        "true_positive_rows": 0
+      },
+      "gauge_bias_step": {
+        "rows": 2304,
+        "assessed": 1475,
+        "false_positive_rows": 143,
+        "positive_rows": 0,
+        "true_positive_rows": 0
+      },
+      "gauge_stuck": {
+        "rows": 2304,
+        "assessed": 1531,
+        "false_positive_rows": 0,
+        "positive_rows": 0,
+        "true_positive_rows": 0
+      },
+      "level_sensor_absent": {
+        "rows": 2304,
+        "assessed": 0,
+        "false_positive_rows": 0,
+        "positive_rows": 0,
+        "true_positive_rows": 0
+      }
+    }
+  },
+  "terminal": {
+    "precision": 0.9743024963289281,
+    "recall_including_unassessed": 0.8013285024154589,
+    "recall_assessable_rows": 0.9512544802867383,
+    "f1": 0.8793903247183565,
+    "coverage": 0.8310185185185185,
+    "rows": 48384,
+    "tp_rows": 1327,
+    "fp_rows": 35,
+    "fn_rows": 329,
+    "false_episodes_per_negative_day": 0.11093990755007704,
+    "passes": true,
+    "strata": {
+      "primary": {
+        "rows": 48384,
+        "assessed": 40208,
+        "false_positive_rows": 35,
+        "positive_rows": 1656,
+        "true_positive_rows": 1327
+      }
+    }
+  },
+  "original_thermal_baseline": {
+    "events": 22,
+    "detected_events": 17,
+    "missed_events": 5,
+    "event_recall": 0.7727272727272727,
+    "severe_events": 21,
+    "severe_misses": 4,
+    "severe_event_recall": 0.8095238095238095,
+    "median_onset_delay_min": 270.0,
+    "p90_onset_delay_min": 694.0,
+    "false_episodes": 12,
+    "negative_truth_days": 143.26041666666666,
+    "false_episodes_per_negative_day": 0.08376354249981822,
+    "coverage": 0.7392939814814815,
+    "unassessed_rows": 12614,
+    "rows": 48384,
+    "row_precision": 0.9464686098654709,
+    "row_recall_including_unassessed_as_misses": 0.5264224473889322,
+    "true_positive_rows": 3377,
+    "false_positive_rows": 191
+  }
+}

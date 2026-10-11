@@ -1,0 +1,61 @@
+{
+  "default_core_features": [
+    "VR_V",
+    "IR_A",
+    "VY_V",
+    "IY_A",
+    "VB_V",
+    "IB_A",
+    "ambient_temp_C",
+    "top_oil_temp_C"
+  ],
+  "oil_task_optional_features": [
+    "oil_level_fraction",
+    "top_oil_temp_C",
+    "oil_inventory_estimate_at_20C_L",
+    "oil_level_temperature_corrected_fraction",
+    "oil_inventory_change_past_115min_L"
+  ],
+  "terminal_task_optional_features": [
+    "terminal_R_surface_temp_C",
+    "IR_A",
+    "ambient_temp_C"
+  ],
+  "quality_context": [
+    "communication_available",
+    "oil_level_sensor_available",
+    "terminal_sensor_available"
+  ],
+  "unsupported_numeric_inputs": [
+    "operating_tank_gas_pressure_kPa",
+    "mechanical_vibration_rms_m_s2",
+    "bushing_partial_discharge_pC",
+    "measured_hotspot_temp_C",
+    "pressure_relief_contact",
+    "bushing_capacitance_pF",
+    "bushing_tan_delta_pct",
+    "bushing_leakage_current_mA",
+    "measured_impedance_pct",
+    "terminal_Y_surface_temp_C",
+    "terminal_B_surface_temp_C"
+  ],
+  "excluded_from_predictors": [
+    "replay_id",
+    "timestamp_IST",
+    "data_origin",
+    "oil_estimate_quality",
+    "parameter_group_id",
+    "split",
+    "seed",
+    "scenario",
+    "event_id",
+    "physical_inspection_confirmed",
+    "all truth_do_not_train tables",
+    "all external_reference_only tables",
+    "all templates and asset identifiers"
+  ],
+  "external_training_authorized": false,
+  "training_authorized": false,
+  "training_performed": false,
+  "target": "No universal classifier or field accuracy claim"
+}

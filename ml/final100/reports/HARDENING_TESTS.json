@@ -1,0 +1,373 @@
+{
+  "passed": true,
+  "checks": 81,
+  "failed": 0,
+  "tests": [
+    {
+      "check": "Canonical example predictions unchanged",
+      "passed": true
+    },
+    {
+      "check": "Explicit arbitrary column mapping matches canonical",
+      "passed": true
+    },
+    {
+      "check": "Voltage V conversion equivalent",
+      "passed": true
+    },
+    {
+      "check": "Voltage kV conversion equivalent",
+      "passed": true
+    },
+    {
+      "check": "Current A conversion equivalent",
+      "passed": true
+    },
+    {
+      "check": "Current mA conversion equivalent",
+      "passed": true
+    },
+    {
+      "check": "Current kA conversion equivalent",
+      "passed": true
+    },
+    {
+      "check": "Temperature C equivalent",
+      "passed": true
+    },
+    {
+      "check": "Temperature F equivalent",
+      "passed": true
+    },
+    {
+      "check": "Temperature K equivalent",
+      "passed": true
+    },
+    {
+      "check": "Oil percent conversion equivalent",
+      "passed": true
+    },
+    {
+      "check": "Explicit unit suffix aliases equivalent",
+      "passed": true
+    },
+    {
+      "check": "Unitless alias requires declaration",
+      "passed": true
+    },
+    {
+      "check": "Unitless alias with declaration works",
+      "passed": true
+    },
+    {
+      "check": "Conflicting aliases reject",
+      "passed": true
+    },
+    {
+      "check": "Explicit alias selection works",
+      "passed": true
+    },
+    {
+      "check": "One raw column mapped to two channels rejects",
+      "passed": true
+    },
+    {
+      "check": "Absent explicitly mapped channel rejects",
+      "passed": true
+    },
+    {
+      "check": "Unsupported unit rejects",
+      "passed": true
+    },
+    {
+      "check": "Unknown config field rejects",
+      "passed": true
+    },
+    {
+      "check": "Unknown mapping field rejects",
+      "passed": true
+    },
+    {
+      "check": "Unknown units field rejects",
+      "passed": true
+    },
+    {
+      "check": "Duplicate headers reject",
+      "passed": true
+    },
+    {
+      "check": "Empty data rejects",
+      "passed": true
+    },
+    {
+      "check": "Missing oil_level_fraction abstains related task",
+      "passed": true
+    },
+    {
+      "check": "Missing oil_level_fraction preserves thermal",
+      "passed": true
+    },
+    {
+      "check": "Missing terminal_R_surface_temp_C abstains related task",
+      "passed": true
+    },
+    {
+      "check": "Missing terminal_R_surface_temp_C preserves thermal",
+      "passed": true
+    },
+    {
+      "check": "Missing core VR_V thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing core VY_V thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing core VB_V thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing core IR_A thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing core IY_A thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing core IB_A thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing core ambient_temp_C thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Missing core top_oil_temp_C thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Labels and extra measurements ignored",
+      "passed": true
+    },
+    {
+      "check": "Corrupt current inf abstains and reports",
+      "passed": true
+    },
+    {
+      "check": "Corrupt current broken abstains and reports",
+      "passed": true
+    },
+    {
+      "check": "Corrupt current -9999 abstains and reports",
+      "passed": true
+    },
+    {
+      "check": "Invalid availability communication_available abstains",
+      "passed": true
+    },
+    {
+      "check": "Invalid availability oil_level_sensor_available abstains",
+      "passed": true
+    },
+    {
+      "check": "Invalid availability terminal_sensor_available abstains",
+      "passed": true
+    },
+    {
+      "check": "Boolean/text availability preserves predictions",
+      "passed": true
+    },
+    {
+      "check": "No calibration thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Mismatched calibration thermal abstains",
+      "passed": true
+    },
+    {
+      "check": "Mislabeled kV-scale volts triggers review and abstention",
+      "passed": true
+    },
+    {
+      "check": "Naive timestamps require timezone",
+      "passed": true
+    },
+    {
+      "check": "Explicit naive timezone preserves predictions",
+      "passed": true
+    },
+    {
+      "check": "Epoch timestamps require unit",
+      "passed": true
+    },
+    {
+      "check": "Explicit epoch seconds preserves predictions",
+      "passed": true
+    },
+    {
+      "check": "Ambiguous day-month timestamps require format",
+      "passed": true
+    },
+    {
+      "check": "Explicit day-month format preserves predictions",
+      "passed": true
+    },
+    {
+      "check": "Two timestamp parsing modes reject",
+      "passed": true
+    },
+    {
+      "check": "Duplicate asset timestamps reject",
+      "passed": true
+    },
+    {
+      "check": "Unsorted history requires explicit sorting",
+      "passed": true
+    },
+    {
+      "check": "Explicit sorting preserves mapped row decisions",
+      "passed": true
+    },
+    {
+      "check": "Incompatible faster cadence rejects",
+      "passed": true
+    },
+    {
+      "check": "Gap resets all heads without interpolation",
+      "passed": true
+    },
+    {
+      "check": "Multiple assets maintain independent state",
+      "passed": true
+    },
+    {
+      "check": "Blank asset identifier rejects",
+      "passed": true
+    },
+    {
+      "check": "No asset identifier requires explicit identity",
+      "passed": true
+    },
+    {
+      "check": "Explicit asset identity works",
+      "passed": true
+    },
+    {
+      "check": "Conflicting asset override rejects",
+      "passed": true
+    },
+    {
+      "check": "Non-100 kVA rating rejects",
+      "passed": true
+    },
+    {
+      "check": "Actual organiser checklist rejects as non-SCADA",
+      "passed": true
+    },
+    {
+      "check": "File csv parser equivalent",
+      "passed": true
+    },
+    {
+      "check": "File tsv parser equivalent",
+      "passed": true
+    },
+    {
+      "check": "File txt parser equivalent",
+      "passed": true
+    },
+    {
+      "check": "Explicit decimal-comma file equivalent",
+      "passed": true
+    },
+    {
+      "check": "File json parser equivalent",
+      "passed": true
+    },
+    {
+      "check": "File jsonl parser equivalent",
+      "passed": true
+    },
+    {
+      "check": "Duplicate CSV headers rejected before pandas mangling",
+      "passed": true
+    },
+    {
+      "check": "Future corruption cannot change earlier decisions",
+      "passed": true
+    },
+    {
+      "check": "Every prediction unchanged train primary",
+      "passed": true
+    },
+    {
+      "check": "Every prediction unchanged train oil_controls",
+      "passed": true
+    },
+    {
+      "check": "Every prediction unchanged validation primary",
+      "passed": true
+    },
+    {
+      "check": "Every prediction unchanged validation oil_controls",
+      "passed": true
+    },
+    {
+      "check": "Every prediction unchanged sealed_acceptance primary",
+      "passed": true
+    },
+    {
+      "check": "Every prediction unchanged sealed_acceptance oil_controls",
+      "passed": true
+    },
+    {
+      "check": "All 311040 V4 operating rows verified",
+      "passed": true
+    }
+  ],
+  "full_dataset_regression": [
+    {
+      "split": "train",
+      "table": "primary",
+      "rows": 145152,
+      "scores_and_decisions_unchanged": true
+    },
+    {
+      "split": "train",
+      "table": "oil_controls",
+      "rows": 41472,
+      "scores_and_decisions_unchanged": true
+    },
+    {
+      "split": "validation",
+      "table": "primary",
+      "rows": 48384,
+      "scores_and_decisions_unchanged": true
+    },
+    {
+      "split": "validation",
+      "table": "oil_controls",
+      "rows": 13824,
+      "scores_and_decisions_unchanged": true
+    },
+    {
+      "split": "sealed_acceptance",
+      "table": "primary",
+      "rows": 48384,
+      "scores_and_decisions_unchanged": true
+    },
+    {
+      "split": "sealed_acceptance",
+      "table": "oil_controls",
+      "rows": 13824,
+      "scores_and_decisions_unchanged": true
+    }
+  ],
+  "model_weights_changed": false,
+  "dataset_rows_changed": false,
+  "field_accuracy_evaluated": false,
+  "scope": "Schema/unit/input fault behavior and full V4 score/decision preservation; not improved learned accuracy."
+}

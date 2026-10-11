@@ -1,0 +1,38 @@
+{
+  "rows": 134182,
+  "positive_rows": 16290,
+  "features": [
+    "residual_C",
+    "residual_mean_30min_C",
+    "residual_mean_60min_C",
+    "residual_change_30min_C",
+    "residual_mean_180min_C",
+    "residual_std_60min_C",
+    "residual_change_5min_C",
+    "oil_change_30min_C",
+    "oil_change_60min_C",
+    "ambient_change_30min_C",
+    "load_sq",
+    "load_sq_mean_60min",
+    "load_sq_change_30min",
+    "oil_rise_K",
+    "expected_oil_rise_K",
+    "current_imbalance_pct",
+    "voltage_min_pu",
+    "oil_flatline_samples"
+  ],
+  "groups": [
+    "g1272c002cdb84d4d",
+    "g209fcf841f4c2f74",
+    "g4f6e789b0cd2f8e9",
+    "g5c3eab0503749f5c",
+    "g5f653f22b0076390",
+    "g86f78af35c822811",
+    "gc13b8e0b4b0cea94",
+    "gc2e5abe270851d4d",
+    "ge31890c9cfe4255a",
+    "ge71481832ef76ef6",
+    "ge8e48cf6c7637d8d",
+    "gee1a3fa98f6d76b0"
+  ]
+}

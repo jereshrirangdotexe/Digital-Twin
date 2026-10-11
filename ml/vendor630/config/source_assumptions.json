@@ -1,0 +1,17 @@
+{
+  "E01": "Electrical operating envelope/context, original 630 and 400 separated; not thermal calibration",
+  "E02": "Waveform context only; five-minute dataset cannot validate fast protection",
+  "E03_E04": "Matched 630 load shapes; unresolved P/Q units excluded from absolute calibration",
+  "E05": "Unverified rating; proxy context only",
+  "E06_E09": "Synthetic electrical context, not measurement truth",
+  "E08": "40-MVA thermal proxy only",
+  "E11": "Experimental curve/model evidence; no exact target raw data or universal tau",
+  "E12_E25": "Different voltage-design harmonic/PQ context; no raw 630 oil traces",
+  "E18_E19_E22": "Diagnostic records, not supervised SCADA thermal labels",
+  "E23": "FEA not measured fault truth",
+  "E24": "Observer setting not thermal constant",
+  "L08": "Surface proxy experimental temperature data; preserve assumptions",
+  "L09": "Single coherent nominal manufacturer design",
+  "L07": "CPRI certificate referenced but unavailable",
+  "other_sources": "Requirements/tender/context retained in source manifest; not forced into generation"
+}

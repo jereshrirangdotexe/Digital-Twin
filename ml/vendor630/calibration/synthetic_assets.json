@@ -1,0 +1,245 @@
+{
+  "type": "KNOWN_SYNTHETIC_REFERENCE",
+  "assets": {
+    "TX-630-01": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 45.302566934431404,
+      "tau_heat_min": 288.09876576985926,
+      "tau_cool_min": 327.8691238076224,
+      "oil_exponent": 0.7833270893651079,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-02": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 51.568418568789,
+      "tau_heat_min": 227.62097432136756,
+      "tau_cool_min": 244.55374712857503,
+      "oil_exponent": 0.877088729242151,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-03": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 48.88729553930247,
+      "tau_heat_min": 249.01064632118033,
+      "tau_cool_min": 268.1231135303655,
+      "oil_exponent": 0.8116393192616791,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-04": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 52.205596867884246,
+      "tau_heat_min": 308.3507943096818,
+      "tau_cool_min": 326.3004327304867,
+      "oil_exponent": 0.8978781650047303,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-05": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 53.57277697204558,
+      "tau_heat_min": 288.713206769156,
+      "tau_cool_min": 366.6150173678962,
+      "oil_exponent": 0.8960341861735185,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-06": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 53.847294459793005,
+      "tau_heat_min": 258.8086901767075,
+      "tau_cool_min": 273.2559917240206,
+      "oil_exponent": 0.8449590950660231,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-07": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 53.51038079872761,
+      "tau_heat_min": 290.7725018124577,
+      "tau_cool_min": 251.2679654662895,
+      "oil_exponent": 0.882559500423283,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-08": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 52.275844289289346,
+      "tau_heat_min": 251.71880781905008,
+      "tau_cool_min": 290.7225185837598,
+      "oil_exponent": 0.7789163770602036,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-09": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 48.079928467343244,
+      "tau_heat_min": 215.2916806792542,
+      "tau_cool_min": 270.85920815473435,
+      "oil_exponent": 0.799621981773844,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-10": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 53.20886538779592,
+      "tau_heat_min": 260.2425164052388,
+      "tau_cool_min": 248.55258371376362,
+      "oil_exponent": 0.8774286602941982,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-11": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 53.68467961842511,
+      "tau_heat_min": 296.1864822040198,
+      "tau_cool_min": 314.1907421709336,
+      "oil_exponent": 0.7565332093948557,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-12": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 45.86242413561423,
+      "tau_heat_min": 223.33304927360513,
+      "tau_cool_min": 332.46601997520867,
+      "oil_exponent": 0.8193075380216239,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-13": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 49.04728153237121,
+      "tau_heat_min": 251.48873578229245,
+      "tau_cool_min": 243.74828809998837,
+      "oil_exponent": 0.7538131726278005,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-14": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 54.49026752307117,
+      "tau_heat_min": 304.90237065717224,
+      "tau_cool_min": 371.6057343512256,
+      "oil_exponent": 0.848834104188498,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-15": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 49.963736608100604,
+      "tau_heat_min": 204.41800718914214,
+      "tau_cool_min": 383.09987955249136,
+      "oil_exponent": 0.8011093952151327,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-16": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 54.29186330782551,
+      "tau_heat_min": 201.86436577158386,
+      "tau_cool_min": 306.0874840474063,
+      "oil_exponent": 0.8374192026053118,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-17": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 47.16228363878563,
+      "tau_heat_min": 254.6163935397949,
+      "tau_cool_min": 363.8672931910046,
+      "oil_exponent": 0.870717803527812,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-18": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 45.99033363126726,
+      "tau_heat_min": 246.8010224828185,
+      "tau_cool_min": 365.95653890002603,
+      "oil_exponent": 0.7788876701707248,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-19": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 46.88602788324214,
+      "tau_heat_min": 229.86592916798844,
+      "tau_cool_min": 239.73187454009712,
+      "oil_exponent": 0.8270181882856577,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-20": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 52.793590029909105,
+      "tau_heat_min": 308.83594225951447,
+      "tau_cool_min": 267.6277911361243,
+      "oil_exponent": 0.8670048651900064,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-21": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 47.77616023458229,
+      "tau_heat_min": 272.41637047574545,
+      "tau_cool_min": 235.8665396682193,
+      "oil_exponent": 0.8028457073737238,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-22": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 54.36230910744828,
+      "tau_heat_min": 215.51132590003365,
+      "tau_cool_min": 367.203509317603,
+      "oil_exponent": 0.8892854013038607,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-23": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 50.786975578285976,
+      "tau_heat_min": 205.3570644398942,
+      "tau_cool_min": 269.0897956051405,
+      "oil_exponent": 0.8040394505861469,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    },
+    "TX-630-24": {
+      "validated": true,
+      "rating_kva": 630,
+      "nominal_top_oil_rise_K": 48.84183161051281,
+      "tau_heat_min": 252.08378925655322,
+      "tau_cool_min": 328.59542081990355,
+      "oil_exponent": 0.7973724078837515,
+      "source": "Known simulation reference; not a fitted real asset",
+      "uncertainty": "Actual simulation process varies within declared envelope"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "selected": {
+    "thermal": "LR_four_feature_control",
+    "oil": "LR_C0.03_negative1",
+    "terminal": "LR_C0.03_negative3"
+  },
+  "synthetic_gates": {
+    "thermal": true,
+    "oil": true,
+    "terminal": true
+  },
+  "promotion_checks": {
+    "thermal_primary_gates": true,
+    "thermal_recall_noninferior": true,
+    "thermal_false_rate_acceptable": true,
+    "thermal_coverage_noninferior": true,
+    "oil_gates": true,
+    "terminal_gates": true
+  },
+  "qualified_synthetic_bundle": true,
+  "field_validated": false,
+  "deployed": false,
+  "elapsed_seconds": 68.68237829208374
+}

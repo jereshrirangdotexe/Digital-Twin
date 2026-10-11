@@ -1,0 +1,14 @@
+{
+  "rise": 34.17381397221437,
+  "tau": 165.7699798686592,
+  "bias": -2.1141006429409472,
+  "loss_ratio": 0.24999999999348788,
+  "commission_rmse_C": 0.1226790520797464,
+  "commission_samples": 4032,
+  "mode": "thermal_fit",
+  "verified_healthy_required": true,
+  "rating_kva": 100,
+  "calibration_status": "VERIFIED_COMMISSIONED",
+  "commission_duration_minutes": 20160,
+  "asset_id": "v4_fresh_04_run0"
+}

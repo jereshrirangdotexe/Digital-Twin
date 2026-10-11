@@ -1,0 +1,10 @@
+{
+  "voltage_noise_V": 0.22,
+  "current_noise_A": 0.9,
+  "ambient_noise_C": 0.15,
+  "oil_noise_C": 0.25,
+  "oil_quantization_C": 0.1,
+  "measured_channels": "All generated channels simulated; actual hardware list remains unconfirmed",
+  "optional_channels": "Not required, not manufactured when absent",
+  "temperature_probe": "Top-oil simulation; tank surface is not accepted as top oil"
+}

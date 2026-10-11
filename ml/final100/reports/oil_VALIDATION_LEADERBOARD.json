@@ -1,0 +1,416 @@
+[
+  {
+    "candidate": "LR_C0.03_negative1",
+    "threshold": 0.2,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9882909694101576,
+      "recall_including_unassessed": 0.5643247158457767,
+      "recall_assessable_rows": 0.9592290936641727,
+      "f1": 0.7184224992463604,
+      "coverage": 0.5641878858024691,
+      "rows": 62208,
+      "tp_rows": 20257,
+      "fp_rows": 240,
+      "fn_rows": 15639,
+      "false_episodes_per_negative_day": 0.07766391863779952,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 28211,
+          "false_positive_rows": 0,
+          "positive_rows": 34548,
+          "true_positive_rows": 19451
+        },
+        "normal_temperature_cycle": {
+          "rows": 2304,
+          "assessed": 1424,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gradual_oil_depletion": {
+          "rows": 2304,
+          "assessed": 1384,
+          "false_positive_rows": 0,
+          "positive_rows": 1348,
+          "true_positive_rows": 806
+        },
+        "documented_refill": {
+          "rows": 2304,
+          "assessed": 1273,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_bias_step": {
+          "rows": 2304,
+          "assessed": 1334,
+          "false_positive_rows": 240,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_stuck": {
+          "rows": 2304,
+          "assessed": 1471,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "level_sensor_absent": {
+          "rows": 2304,
+          "assessed": 0,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C0.3_negative1",
+    "threshold": 0.2,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9882881124341206,
+      "recall_including_unassessed": 0.5641854245598396,
+      "recall_assessable_rows": 0.958992328819017,
+      "f1": 0.7183088600411435,
+      "coverage": 0.5641878858024691,
+      "rows": 62208,
+      "tp_rows": 20252,
+      "fp_rows": 240,
+      "fn_rows": 15644,
+      "false_episodes_per_negative_day": 0.07766391863779952,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 28211,
+          "false_positive_rows": 0,
+          "positive_rows": 34548,
+          "true_positive_rows": 19446
+        },
+        "normal_temperature_cycle": {
+          "rows": 2304,
+          "assessed": 1424,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gradual_oil_depletion": {
+          "rows": 2304,
+          "assessed": 1384,
+          "false_positive_rows": 0,
+          "positive_rows": 1348,
+          "true_positive_rows": 806
+        },
+        "documented_refill": {
+          "rows": 2304,
+          "assessed": 1273,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_bias_step": {
+          "rows": 2304,
+          "assessed": 1334,
+          "false_positive_rows": 240,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_stuck": {
+          "rows": 2304,
+          "assessed": 1471,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "level_sensor_absent": {
+          "rows": 2304,
+          "assessed": 0,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.2,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9882881124341206,
+      "recall_including_unassessed": 0.5641854245598396,
+      "recall_assessable_rows": 0.958992328819017,
+      "f1": 0.7183088600411435,
+      "coverage": 0.5641878858024691,
+      "rows": 62208,
+      "tp_rows": 20252,
+      "fp_rows": 240,
+      "fn_rows": 15644,
+      "false_episodes_per_negative_day": 0.07766391863779952,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 28211,
+          "false_positive_rows": 0,
+          "positive_rows": 34548,
+          "true_positive_rows": 19446
+        },
+        "normal_temperature_cycle": {
+          "rows": 2304,
+          "assessed": 1424,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gradual_oil_depletion": {
+          "rows": 2304,
+          "assessed": 1384,
+          "false_positive_rows": 0,
+          "positive_rows": 1348,
+          "true_positive_rows": 806
+        },
+        "documented_refill": {
+          "rows": 2304,
+          "assessed": 1273,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_bias_step": {
+          "rows": 2304,
+          "assessed": 1334,
+          "false_positive_rows": 240,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_stuck": {
+          "rows": 2304,
+          "assessed": 1471,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "level_sensor_absent": {
+          "rows": 2304,
+          "assessed": 0,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C0.03_negative3",
+    "threshold": 0.2,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.988651372107812,
+      "recall_including_unassessed": 0.5630432360151549,
+      "recall_assessable_rows": 0.9570508570887395,
+      "f1": 0.7174781235023696,
+      "coverage": 0.5641878858024691,
+      "rows": 62208,
+      "tp_rows": 20211,
+      "fp_rows": 232,
+      "fn_rows": 15685,
+      "false_episodes_per_negative_day": 0.05547422759842823,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 28211,
+          "false_positive_rows": 0,
+          "positive_rows": 34548,
+          "true_positive_rows": 19411
+        },
+        "normal_temperature_cycle": {
+          "rows": 2304,
+          "assessed": 1424,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gradual_oil_depletion": {
+          "rows": 2304,
+          "assessed": 1384,
+          "false_positive_rows": 0,
+          "positive_rows": 1348,
+          "true_positive_rows": 800
+        },
+        "documented_refill": {
+          "rows": 2304,
+          "assessed": 1273,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_bias_step": {
+          "rows": 2304,
+          "assessed": 1334,
+          "false_positive_rows": 232,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_stuck": {
+          "rows": 2304,
+          "assessed": 1471,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "level_sensor_absent": {
+          "rows": 2304,
+          "assessed": 0,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C0.3_negative3",
+    "threshold": 0.2,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9887953811527547,
+      "recall_including_unassessed": 0.5629875195007801,
+      "recall_assessable_rows": 0.9569561511506771,
+      "f1": 0.7174707991621402,
+      "coverage": 0.5641878858024691,
+      "rows": 62208,
+      "tp_rows": 20209,
+      "fp_rows": 229,
+      "fn_rows": 15687,
+      "false_episodes_per_negative_day": 0.05547422759842823,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 28211,
+          "false_positive_rows": 0,
+          "positive_rows": 34548,
+          "true_positive_rows": 19411
+        },
+        "normal_temperature_cycle": {
+          "rows": 2304,
+          "assessed": 1424,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gradual_oil_depletion": {
+          "rows": 2304,
+          "assessed": 1384,
+          "false_positive_rows": 0,
+          "positive_rows": 1348,
+          "true_positive_rows": 798
+        },
+        "documented_refill": {
+          "rows": 2304,
+          "assessed": 1273,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_bias_step": {
+          "rows": 2304,
+          "assessed": 1334,
+          "false_positive_rows": 229,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_stuck": {
+          "rows": 2304,
+          "assessed": 1471,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "level_sensor_absent": {
+          "rows": 2304,
+          "assessed": 0,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative3",
+    "threshold": 0.2,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9887953811527547,
+      "recall_including_unassessed": 0.5629875195007801,
+      "recall_assessable_rows": 0.9569561511506771,
+      "f1": 0.7174707991621402,
+      "coverage": 0.5641878858024691,
+      "rows": 62208,
+      "tp_rows": 20209,
+      "fp_rows": 229,
+      "fn_rows": 15687,
+      "false_episodes_per_negative_day": 0.05547422759842823,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 28211,
+          "false_positive_rows": 0,
+          "positive_rows": 34548,
+          "true_positive_rows": 19411
+        },
+        "normal_temperature_cycle": {
+          "rows": 2304,
+          "assessed": 1424,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gradual_oil_depletion": {
+          "rows": 2304,
+          "assessed": 1384,
+          "false_positive_rows": 0,
+          "positive_rows": 1348,
+          "true_positive_rows": 798
+        },
+        "documented_refill": {
+          "rows": 2304,
+          "assessed": 1273,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_bias_step": {
+          "rows": 2304,
+          "assessed": 1334,
+          "false_positive_rows": 229,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "gauge_stuck": {
+          "rows": 2304,
+          "assessed": 1471,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        },
+        "level_sensor_absent": {
+          "rows": 2304,
+          "assessed": 0,
+          "false_positive_rows": 0,
+          "positive_rows": 0,
+          "true_positive_rows": 0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "rise": 34.6685,
+  "tau": 196.1612,
+  "bias": -4.0,
+  "loss_ratio": 0.242389,
+  "calibration_status": "REFERENCE_CALIBRATION",
+  "rating_kva": 100,
+  "commission_rmse_C": null,
+  "commission_samples": null,
+  "commission_duration_minutes": null,
+  "bound_warnings": [
+    "bias at lower bound",
+    "rise near upper bound",
+    "loss_ratio near upper bound"
+  ],
+  "provenance": "User-provided approximate pooled synthetic R05 + R11 prototype parameters; not independently verified asset commissioning. Prior reported RMSE approximately 1.2522 C, recomputed diagnostics in reports.",
+  "approximate_parameters": true
+}

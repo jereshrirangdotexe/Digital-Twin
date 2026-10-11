@@ -1,0 +1,25 @@
+{
+  "rows": 122578,
+  "positive_rows": 3298,
+  "features": [
+    "terminal_rise_K",
+    "current_R_sq_A2",
+    "terminal_change_30min_C",
+    "ambient_temp_C",
+    "terminal_excess_nominal_K"
+  ],
+  "groups": [
+    "g1272c002cdb84d4d",
+    "g209fcf841f4c2f74",
+    "g4f6e789b0cd2f8e9",
+    "g5c3eab0503749f5c",
+    "g5f653f22b0076390",
+    "g86f78af35c822811",
+    "gc13b8e0b4b0cea94",
+    "gc2e5abe270851d4d",
+    "ge31890c9cfe4255a",
+    "ge71481832ef76ef6",
+    "ge8e48cf6c7637d8d",
+    "gee1a3fa98f6d76b0"
+  ]
+}

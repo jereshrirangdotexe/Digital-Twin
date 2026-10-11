@@ -1,0 +1,142 @@
+{
+  "aliases": {
+    "timestamp": [
+      "timestamp",
+      "timestamp_IST",
+      "time",
+      "datetime",
+      "date_time",
+      "reading_time"
+    ],
+    "asset_id": [
+      "asset_id",
+      "assetId",
+      "transformer_id",
+      "device_id",
+      "replay_id"
+    ],
+    "transformer_rating_kva": [
+      "transformer_rating_kva",
+      "rating_kva",
+      "ratingKVA"
+    ],
+    "ambient_temp_c": [
+      "ambient_temp_C",
+      "ambient_temperature",
+      "ambient_temp",
+      "Tamb",
+      "temperature_ambient",
+      "ambientTempC"
+    ],
+    "top_oil_temp_c": [
+      "top_oil_temp_C",
+      "top_oil_temperature",
+      "oil_temp",
+      "oil_temperature",
+      "Toil",
+      "topOilTempC"
+    ],
+    "communication_available": [
+      "communication_available",
+      "communicationAvailable",
+      "communication_status",
+      "comm_status",
+      "online"
+    ],
+    "voltage_r_v": [
+      "VR_V",
+      "V_R",
+      "Vr",
+      "r_voltage",
+      "voltage_r",
+      "r_phase_voltage",
+      "voltageR",
+      "V_L1_V",
+      "voltage_l1_v",
+      "VL1_V",
+      "phase1_voltage_V"
+    ],
+    "current_r_a": [
+      "IR_A",
+      "I_R",
+      "Ir",
+      "r_current",
+      "current_r",
+      "r_phase_current",
+      "currentR",
+      "I_L1_A",
+      "current_l1_a",
+      "IL1_A",
+      "phase1_current_A"
+    ],
+    "voltage_y_v": [
+      "VY_V",
+      "V_Y",
+      "Vy",
+      "y_voltage",
+      "voltage_y",
+      "y_phase_voltage",
+      "voltageY",
+      "V_L2_V",
+      "voltage_l2_v",
+      "VL2_V",
+      "phase2_voltage_V"
+    ],
+    "current_y_a": [
+      "IY_A",
+      "I_Y",
+      "Iy",
+      "y_current",
+      "current_y",
+      "y_phase_current",
+      "currentY",
+      "I_L2_A",
+      "current_l2_a",
+      "IL2_A",
+      "phase2_current_A"
+    ],
+    "voltage_b_v": [
+      "VB_V",
+      "V_B",
+      "Vb",
+      "b_voltage",
+      "voltage_b",
+      "b_phase_voltage",
+      "voltageB",
+      "V_L3_V",
+      "voltage_l3_v",
+      "VL3_V",
+      "phase3_voltage_V"
+    ],
+    "current_b_a": [
+      "IB_A",
+      "I_B",
+      "Ib",
+      "b_current",
+      "current_b",
+      "b_phase_current",
+      "currentB",
+      "I_L3_A",
+      "current_l3_a",
+      "IL3_A",
+      "phase3_current_A"
+    ]
+  },
+  "encoded_units": "Suffix _V, _kV, _A, _mA, _C, _F, _K or equivalent spaces/brackets; unknown unsuffixed units require --units",
+  "canonical_required": [
+    "voltage_r_v",
+    "voltage_y_v",
+    "voltage_b_v",
+    "current_r_a",
+    "current_y_a",
+    "current_b_a",
+    "ambient_temp_c",
+    "top_oil_temp_c"
+  ],
+  "optional": [
+    "asset_id",
+    "transformer_rating_kva",
+    "communication_available"
+  ],
+  "timestamp_required": true
+}

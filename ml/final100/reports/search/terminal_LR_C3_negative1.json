@@ -1,0 +1,434 @@
+[
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.2,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.8340220385674931,
+      "recall_including_unassessed": 0.8215739484396201,
+      "recall_assessable_rows": 0.9344135802469136,
+      "f1": 0.8277511961722487,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1211,
+      "fp_rows": 241,
+      "fn_rows": 263,
+      "false_episodes_per_negative_day": 0.5832445107652952,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 241,
+          "positive_rows": 1474,
+          "true_positive_rows": 1211
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.2,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9561855670103093,
+      "recall_including_unassessed": 0.7550881953867028,
+      "recall_assessable_rows": 0.8587962962962963,
+      "f1": 0.8438210765731614,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1113,
+      "fp_rows": 51,
+      "fn_rows": 361,
+      "false_episodes_per_negative_day": 0.11664890215305904,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 51,
+          "positive_rows": 1474,
+          "true_positive_rows": 1113
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.4,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9429477020602218,
+      "recall_including_unassessed": 0.8073270013568521,
+      "recall_assessable_rows": 0.9182098765432098,
+      "f1": 0.8698830409356725,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1190,
+      "fp_rows": 72,
+      "fn_rows": 284,
+      "false_episodes_per_negative_day": 0.20874014069494776,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 72,
+          "positive_rows": 1474,
+          "true_positive_rows": 1190
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.4,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9740376007162042,
+      "recall_including_unassessed": 0.7381275440976933,
+      "recall_assessable_rows": 0.8395061728395061,
+      "f1": 0.839830181397144,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1088,
+      "fp_rows": 29,
+      "fn_rows": 386,
+      "false_episodes_per_negative_day": 0.06139415902792581,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 29,
+          "positive_rows": 1474,
+          "true_positive_rows": 1088
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.6,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9734660033167496,
+      "recall_including_unassessed": 0.7964721845318861,
+      "recall_assessable_rows": 0.9058641975308642,
+      "f1": 0.8761194029850747,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1174,
+      "fp_rows": 32,
+      "fn_rows": 300,
+      "false_episodes_per_negative_day": 0.09823065444468129,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 32,
+          "positive_rows": 1474,
+          "true_positive_rows": 1174
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.6,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9816345270890725,
+      "recall_including_unassessed": 0.7252374491180461,
+      "recall_assessable_rows": 0.8248456790123457,
+      "f1": 0.8341786968396409,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1069,
+      "fp_rows": 20,
+      "fn_rows": 405,
+      "false_episodes_per_negative_day": 0.049115327222340646,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 20,
+          "positive_rows": 1474,
+          "true_positive_rows": 1069
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.8,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.983857264231096,
+      "recall_including_unassessed": 0.7856173677069199,
+      "recall_assessable_rows": 0.8935185185185185,
+      "f1": 0.873632591474915,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1158,
+      "fp_rows": 19,
+      "fn_rows": 316,
+      "false_episodes_per_negative_day": 0.05525474312513323,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 19,
+          "positive_rows": 1474,
+          "true_positive_rows": 1158
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.8,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9843173431734318,
+      "recall_including_unassessed": 0.7238805970149254,
+      "recall_assessable_rows": 0.8233024691358025,
+      "f1": 0.8342455043002346,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1067,
+      "fp_rows": 17,
+      "fn_rows": 407,
+      "false_episodes_per_negative_day": 0.049115327222340646,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 17,
+          "positive_rows": 1474,
+          "true_positive_rows": 1067
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.9,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9835924006908463,
+      "recall_including_unassessed": 0.7727272727272727,
+      "recall_assessable_rows": 0.878858024691358,
+      "f1": 0.8655015197568389,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1139,
+      "fp_rows": 19,
+      "fn_rows": 335,
+      "false_episodes_per_negative_day": 0.05525474312513323,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 19,
+          "positive_rows": 1474,
+          "true_positive_rows": 1139
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.9,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9839773798303487,
+      "recall_including_unassessed": 0.7082767978290366,
+      "recall_assessable_rows": 0.8055555555555556,
+      "f1": 0.8236686390532544,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1044,
+      "fp_rows": 17,
+      "fn_rows": 430,
+      "false_episodes_per_negative_day": 0.049115327222340646,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 17,
+          "positive_rows": 1474,
+          "true_positive_rows": 1044
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.95,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9841966637401229,
+      "recall_including_unassessed": 0.7605156037991859,
+      "recall_assessable_rows": 0.8649691358024691,
+      "f1": 0.8580176042862611,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1121,
+      "fp_rows": 18,
+      "fn_rows": 353,
+      "false_episodes_per_negative_day": 0.049115327222340646,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 18,
+          "positive_rows": 1474,
+          "true_positive_rows": 1121
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.95,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9846596356663471,
+      "recall_including_unassessed": 0.6967435549525102,
+      "recall_assessable_rows": 0.7924382716049383,
+      "f1": 0.8160508541914979,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1027,
+      "fp_rows": 16,
+      "fn_rows": 447,
+      "false_episodes_per_negative_day": 0.04297591131954807,
+      "passes": false,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 16,
+          "positive_rows": 1474,
+          "true_positive_rows": 1027
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.98,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9840566873339238,
+      "recall_including_unassessed": 0.753731343283582,
+      "recall_assessable_rows": 0.8572530864197531,
+      "f1": 0.853630426431041,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1111,
+      "fp_rows": 18,
+      "fn_rows": 363,
+      "false_episodes_per_negative_day": 0.049115327222340646,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 18,
+          "positive_rows": 1474,
+          "true_positive_rows": 1111
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.98,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9846005774783445,
+      "recall_including_unassessed": 0.6940298507462687,
+      "recall_assessable_rows": 0.7893518518518519,
+      "f1": 0.8141663350577,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1023,
+      "fp_rows": 16,
+      "fn_rows": 451,
+      "false_episodes_per_negative_day": 0.04297591131954807,
+      "passes": false,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 16,
+          "positive_rows": 1474,
+          "true_positive_rows": 1023
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.995,
+    "persistence": 3,
+    "metrics": {
+      "precision": 0.9853747714808044,
+      "recall_including_unassessed": 0.7313432835820896,
+      "recall_assessable_rows": 0.8317901234567902,
+      "f1": 0.839563862928349,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 1078,
+      "fp_rows": 16,
+      "fn_rows": 396,
+      "false_episodes_per_negative_day": 0.049115327222340646,
+      "passes": true,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 16,
+          "positive_rows": 1474,
+          "true_positive_rows": 1078
+        }
+      }
+    }
+  },
+  {
+    "candidate": "LR_C3_negative1",
+    "threshold": 0.995,
+    "persistence": 6,
+    "metrics": {
+      "precision": 0.9859578736208626,
+      "recall_including_unassessed": 0.6668928086838535,
+      "recall_assessable_rows": 0.7584876543209876,
+      "f1": 0.7956292998785917,
+      "coverage": 0.8386036706349206,
+      "rows": 48384,
+      "tp_rows": 983,
+      "fp_rows": 14,
+      "fn_rows": 491,
+      "false_episodes_per_negative_day": 0.04297591131954807,
+      "passes": false,
+      "strata": {
+        "primary": {
+          "rows": 48384,
+          "assessed": 40575,
+          "false_positive_rows": 14,
+          "positive_rows": 1474,
+          "true_positive_rows": 983
+        }
+      }
+    }
+  }
+]

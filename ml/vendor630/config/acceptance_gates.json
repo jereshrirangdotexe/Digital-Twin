@@ -1,0 +1,13 @@
+{
+  "declared_before_first_fit": true,
+  "validation_max_false_alerts_per_healthy_day": 1.0,
+  "validation_min_observable_event_detection": 0.75,
+  "final_min_observable_event_detection": 0.6,
+  "final_max_false_alerts_per_healthy_day": 1.0,
+  "max_healthy_high_load_alert_fraction": 0.01,
+  "ml_improvement_rule": "At least 0.02 validation F1 gain over persistent physics with no increase above baseline +0.1 false alerts/day; otherwise choose simpler baseline.",
+  "probability_policy": "Raw classifier score only; no claim of calibrated field failure probability",
+  "test_policy": "Evaluate all candidates once on final sets after selection; never retune; conditional/no lock if gates fail.",
+  "label_policy": "Train annotations exported during generation to training-only file; evaluation truth used only for auditing and metrics.",
+  "sensitivity": "Report shifted calibration/parameter results even when acceptance fails"
+}

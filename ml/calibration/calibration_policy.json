@@ -1,0 +1,29 @@
+{
+  "hierarchy": [
+    "validated asset-specific",
+    "separate independently verified commissioning",
+    "explicitly labeled reference fallback"
+  ],
+  "minimum_samples": 2016,
+  "interval_minutes": 5,
+  "minimum_duration_minutes": 10080,
+  "parameter_bounds": {
+    "rise": [
+      20,
+      35
+    ],
+    "tau": [
+      75,
+      520
+    ],
+    "bias": [
+      -4,
+      4
+    ],
+    "loss_ratio": [
+      0.08,
+      0.25
+    ]
+  },
+  "automatic_inference_calibration": false
+}

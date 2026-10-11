@@ -1,0 +1,22 @@
+{
+  "train": [
+    "g1272c002cdb84d4d",
+    "g209fcf841f4c2f74",
+    "g4f6e789b0cd2f8e9",
+    "g5c3eab0503749f5c",
+    "g5f653f22b0076390",
+    "g86f78af35c822811",
+    "gc13b8e0b4b0cea94",
+    "gc2e5abe270851d4d",
+    "ge31890c9cfe4255a",
+    "ge71481832ef76ef6",
+    "ge8e48cf6c7637d8d",
+    "gee1a3fa98f6d76b0"
+  ],
+  "validation": [
+    "g6e6856aa85f30832",
+    "g82aff4093921d95c",
+    "gc3e225bc1b5f4991",
+    "gf81a68226cd53df4"
+  ]
+}

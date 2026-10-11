@@ -1,0 +1,386 @@
+[
+  {
+    "path": "external_reference_only/pdfs/F01_oil_leakage_infrared.pdf",
+    "source_relative_path": "pdfs/F01_oil_leakage_infrared.pdf",
+    "sha256": "54b4aec100f8f7d5b09974dc257f4e9368dbc8aeee5a85c9d9fb15a867c74ba5",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/pdfs/F08_PD_substitution.pdf",
+    "source_relative_path": "pdfs/F08_PD_substitution.pdf",
+    "sha256": "f09d0de7f823d4d1a0851f56f80fcb9290007f5aa2f886250cfb43edb67fe85a",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/pdfs/F13_50kVA_vibration.pdf",
+    "source_relative_path": "pdfs/F13_50kVA_vibration.pdf",
+    "sha256": "a7c6dd5e7d2fe4c5dc8a514fc52849894c5f6087ee9592cc6f5430bb583005df",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/pdfs/F16_oil_images.pdf",
+    "source_relative_path": "pdfs/F16_oil_images.pdf",
+    "sha256": "d421f7c62cc7da4491ebfeae0d7e2c904bfa9c430a27651d0d536411422ed445",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/pdfs/F17_100kVA_utility_spec_2026.pdf",
+    "source_relative_path": "pdfs/F17_100kVA_utility_spec_2026.pdf",
+    "sha256": "179c7c62443f94b9a7475dc6cebd2f01b20c8843b1a13ad28784937780ca472d",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/pdfs/F18_110kV_bushing_experiments.pdf",
+    "source_relative_path": "pdfs/F18_110kV_bushing_experiments.pdf",
+    "sha256": "74f193af83b7d1133f0be2000a838e0c1c69289dcf6cfd408729fd3dcaa86406",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/pdfs/F19_100kVA_impedance.pdf",
+    "source_relative_path": "pdfs/F19_100kVA_impedance.pdf",
+    "sha256": "39c2a8d3ca16a46c556e6994c7c1e3315f5eea79de3f573dce4c434d21780a48",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/pdfs/F20_100kVA_core_looseness.pdf",
+    "source_relative_path": "pdfs/F20_100kVA_core_looseness.pdf",
+    "sha256": "85e5bff5afb076f014fa7c9122541e87785cf15a0e6e1b30f73302e4e877da52",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/download_register.json",
+    "source_relative_path": "metadata/download_register.json",
+    "sha256": "7f637187a6d0545ea2a4e9e3ec975dbb38abd795cab94127e189da79ed2ef659",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/download_register_additional.json",
+    "source_relative_path": "metadata/download_register_additional.json",
+    "sha256": "0a20cbc16371e034716f23cc5f63582c463352dc5ac7eca30cce9f81314cfec1",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/download_register_final.json",
+    "source_relative_path": "metadata/download_register_final.json",
+    "sha256": "670ef2adea68fdba3a998b2aa7a8ee550e68ef31471b242d8dc6f83eec8301b6",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F03_vibration_paper.html",
+    "source_relative_path": "metadata/F03_vibration_paper.html",
+    "sha256": "063d966f2722f54665cafd6dc2a5460d44a1af1f0afd300c99322d89294f84ff",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F04_dataset_inventory.json",
+    "source_relative_path": "metadata/F04_dataset_inventory.json",
+    "sha256": "c186421721c46b4a06f73a5825bc087be7126a74287a087e43d03754bbeed608",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F04_github_tree.json",
+    "source_relative_path": "metadata/F04_github_tree.json",
+    "sha256": "81c4b9d3e117a1934238a219fd4c627a626210a096571318f220ec6cc774caca",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F04_README.md",
+    "source_relative_path": "metadata/F04_README.md",
+    "sha256": "06828b71a9d78c85b73544fe0a82075a65b0ecc73fb6364a2b4d2770d86ea759",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F04_sample_inspection.json",
+    "source_relative_path": "metadata/F04_sample_inspection.json",
+    "sha256": "4daa93e24aa636518aa867d6a762cba5583f5e96bd53f7637223ab9e42991292",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F05_bushing_page.html",
+    "source_relative_path": "metadata/F05_bushing_page.html",
+    "sha256": "e7fa5d6788571fd1861b02c5f62481b635026ca228867af3f755d5e7b3e91ebd",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F06_dry_images_page.html",
+    "source_relative_path": "metadata/F06_dry_images_page.html",
+    "sha256": "b05deca31b53790320a86ae79afca66692bd2973db82ec1ef1c57e269f2a8be8",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F07_zenodo.json",
+    "source_relative_path": "metadata/F07_zenodo.json",
+    "sha256": "1adfda6f6d8dbdca4a22f7f40d6cec5c6afc297d2e3e599f668d401788f60f5d",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F12_clamping.json",
+    "source_relative_path": "metadata/F12_clamping.json",
+    "sha256": "379705a036127da562eeb4ef6c79be50c8723ac68f287978dcbde834fffc9438",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F13_50kVA_tree.json",
+    "source_relative_path": "metadata/F13_50kVA_tree.json",
+    "sha256": "f0b141d72043e38401eaf7051dfd344760b2c1bb862afa77186a03a9e87d0e46",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F13_preprocessing_source_ONLY.txt",
+    "source_relative_path": "metadata/F13_preprocessing_source_ONLY.txt",
+    "sha256": "ef8359b793febe6f63e3d867767f4367f984c0f4215a36ace2040b550e799d21",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F13_raw_inspection.json",
+    "source_relative_path": "metadata/F13_raw_inspection.json",
+    "sha256": "a1497d3ac4816ef1cae990529730bad61a51d0314e6a2967c678e344c00439c2",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F13_readme_source_ONLY.txt",
+    "source_relative_path": "metadata/F13_readme_source_ONLY.txt",
+    "sha256": "438b3d15b06f35db3f2e5079cd28b50c5032b933abe687795f037d5807bc3d74",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F14_sen_simulation.json",
+    "source_relative_path": "metadata/F14_sen_simulation.json",
+    "sha256": "a1d5d2c3a6aad037d3fccc34317a00fa6d1dd4a0b027daf7977ea2147c0c63bf",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F15_HIL_shortcircuit.json",
+    "source_relative_path": "metadata/F15_HIL_shortcircuit.json",
+    "sha256": "ba44cde3657ca2c8064c5c099be42e9ef593b56997746b698a9f02a3b836934d",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/metadata/F20_download.json",
+    "source_relative_path": "metadata/F20_download.json",
+    "sha256": "23efe9e72f70b76010f262ca2e8ff42c89ff58c59d89864ffa1cdbfa7fac33ba",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_40MVA/Barug2025_sensordata.csv",
+    "source_relative_path": "raw_data/transfer_40MVA/Barug2025_sensordata.csv",
+    "sha256": "6aa7384867aace7b697b9e17778decbbdbde280db1fd7983faee08c259b19e51",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_40MVA/README.txt",
+    "source_relative_path": "raw_data/transfer_40MVA/README.txt",
+    "sha256": "e04754b9ebc1e797eb67f03d5838ae4999b708a2ca84e3aaca0765a1e7306910",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_0.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_0.mat",
+    "sha256": "fcb93d4fda14750e154d2df6000e11c988d1213018e45e5748599810326d0b7d",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_1.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_1.mat",
+    "sha256": "3c542d31742344daa1c80e9c36b47f7cadafad0ce9fcc766b40fd9fb9d4c90a2",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_2.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_2.mat",
+    "sha256": "2cef047a0bbe325d85012be6d85290c31beacccb2b23739d9091438ebc5d0a41",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_3.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_3.mat",
+    "sha256": "725952c24e33fb372de8cf6517bd7fc032cf9e7f715662cdbf20abd934b64e38",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_4.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_4.mat",
+    "sha256": "42785fc4385a20e040b14ef9d54ea167064b11c829860eace10c482ec60bfe9a",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_5.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_5.mat",
+    "sha256": "dafc617433c26793896be44c00588f7d19713ddeda94b8f7aa4386082f60be8f",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_6.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_6.mat",
+    "sha256": "acb4def72c5e79da4c1370e9f6e0e3bcc836ff0e83efdb8bc0854e86815c967d",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_7.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_7.mat",
+    "sha256": "2781ff124a5128be550de174a7f5f4085c2e1ce6443c08988e8665216f3f8abf",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_8.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_8.mat",
+    "sha256": "c8a0f14fb018a8139b4104eb181a5bed504651361401bf32e820cc85902a616d",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_9.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/0HP_8k/095602_8k_9.mat",
+    "sha256": "5e05d8eeebd9e5bd4d9ac7c8aa9d00b8e90cbcff9b1e91c90854e14cfb4ff3a3",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_50kVA_dry/AI2_data1280_process_8k.mat",
+    "source_relative_path": "raw_data/transfer_50kVA_dry/AI2_data1280_process_8k.mat",
+    "sha256": "8427113e9c7f8527a175e8a0a2d135d081f01cad4bf61829c980288f1152302b",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/transfer_HIL/Electron_SUC3_S1_DifferentialProtection_TransformerSineWave.mat",
+    "source_relative_path": "raw_data/transfer_HIL/Electron_SUC3_S1_DifferentialProtection_TransformerSineWave.mat",
+    "sha256": "1ed7ddd90138028d48096e950d2905cd9f68ffd4dd695a86f3a637309153cfbd",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/00.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/00.jsonl",
+    "sha256": "60298cebe50838e0865235d09944ea28ac2743dd6a2182bd2d8541cf8e087cd4",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/01.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/01.jsonl",
+    "sha256": "5f82ac84e1bb7c4ac6692418ef9ac00365cbfbcfb1ddb149d5bf10a637d5a58c",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/02.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/02.jsonl",
+    "sha256": "d3d47628bad0bf3841821f4850185f6661769e4bdf9d6e4630737c5eee0e5b86",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/03.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/03.jsonl",
+    "sha256": "006ee5fb548622c26bc66aa809eb17844da34ddfe54dd6040bdc8d2ca7b9ac25",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/04.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/04.jsonl",
+    "sha256": "d80a0a64134fc41ae13f7e45dd624c399eb9acb5f76c929fea74d4f35956a670",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/05.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/05.jsonl",
+    "sha256": "ee10c485fab93cb82788bb6a7b165c301d9fae5ce25cca945147ae3eb4ac77ce",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/06.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/06.jsonl",
+    "sha256": "d95dad6112fd57d419415d63f39fe10044f4322b403f2fa6b9eee14eb32ea608",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/07.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/07.jsonl",
+    "sha256": "db9861003ee541d35a3d9ed0f9b7c09fd81eadde8f7da6c3c52a16cb6e655c90",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/08.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/08.jsonl",
+    "sha256": "1496605aee48cc6304d4b80e07b3e1abaf18e0db8a421636cbf0c3369283d453",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/09.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/09.jsonl",
+    "sha256": "9bb37ad8849b40c96f2dc19836bdda53f74d1d63eda953936d704fe6b1e0a928",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/10.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/10.jsonl",
+    "sha256": "5ead0eb38e6a0be4132a8097b1a02b909dc22b3010f5716527987ecd58278b2b",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/11.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/11.jsonl",
+    "sha256": "8bb78852c608a0c6e8b225abbcc416fdd6eff7e55932a4b05d4dd62c138c788e",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/12.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/12.jsonl",
+    "sha256": "2b9a4f3476c1ae88ead8569fc841621752bd4f07af4ea87dabf6200b3981f7d6",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/13.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/13.jsonl",
+    "sha256": "d9824baa7facc80272659cb60d3216646fb4e0eb14cc0253b0190a3b443f96db",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/14.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/14.jsonl",
+    "sha256": "44138a06199d2514304f65560f251a6d9f125ddc8a0de6ef5ddb3b69d99b1d52",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/15.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/15.jsonl",
+    "sha256": "64de28ce9942e2495a2e04fa07262a934d8c448b10027b21ca2b4635485f035a",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/16.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/16.jsonl",
+    "sha256": "e566a2d8320ecf6771a214d7c857641df9675f7738561f7f0e9a97ff33e4bd3c",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/17.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/17.jsonl",
+    "sha256": "6dc169d41043bd1a284b1c86e5a712ec09984dbf6cf9c9d4b06a8ca24320cb3f",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/raw_data/vibration_review_only/18.jsonl",
+    "source_relative_path": "raw_data/vibration_review_only/18.jsonl",
+    "sha256": "a2ed1599cb407422cdbd437496fca296fbcfe297b50733858c86f5cc2cc9b98c",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/reports/FINDINGS_AND_IMPLEMENTATION_PROPOSAL.md",
+    "source_relative_path": "reports/FINDINGS_AND_IMPLEMENTATION_PROPOSAL.md",
+    "sha256": "03f47b81c290305ebf008555202212fe3f0cd3360c7448945ec699b890b68d47",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/reports/SOURCE_REGISTER.md",
+    "source_relative_path": "reports/SOURCE_REGISTER.md",
+    "sha256": "54201999ad78fab72ac6b35a3e153a9f9842435c9f81814c13ca787de82b20f2",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/reports/RAW_DATA_INSPECTION.json",
+    "source_relative_path": "reports/RAW_DATA_INSPECTION.json",
+    "sha256": "dd8b2198863647374cb8c0b175e0fa2fbbf166fc67e489c895dd4cea0e48234a",
+    "target_training_eligible": false
+  },
+  {
+    "path": "external_reference_only/other data sources.txt",
+    "source_relative_path": "other data sources.txt",
+    "sha256": "81e02151cf3f1c280fb66e79705c98d398f57284e9532e0df22a66b13959782f",
+    "target_training_eligible": false
+  }
+]

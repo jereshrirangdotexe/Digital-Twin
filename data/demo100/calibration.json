@@ -1,0 +1,17 @@
+{
+  "DEMO100_THERMAL_TWIN": {
+    "asset_id": "DEMO100_THERMAL_TWIN",
+    "rise": 30.0,
+    "tau": 160.0,
+    "bias": 0.0,
+    "loss_ratio": 0.2,
+    "rating_kva": 100,
+    "calibration_status": "VERIFIED_COMMISSIONED",
+    "verified_healthy_required": true,
+    "mode": "synthetic_known_parameters",
+    "commission_samples": 4032,
+    "commission_duration_minutes": 20160,
+    "provenance": "SYNTHETIC DEMONSTRATION ONLY: known generator parameters; independent healthy synthetic commissioning file. Not field-verified or fitted on monitoring faults.",
+    "commission_rmse_C": 0.0247518493027147
+  }
+}

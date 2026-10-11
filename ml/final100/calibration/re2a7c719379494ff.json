@@ -1,0 +1,15 @@
+{
+  "rise": 31.737316595407787,
+  "tau": 224.7370787123912,
+  "bias": -3.186622245683972,
+  "loss_ratio": 0.24999999995755182,
+  "commission_rmse_C": 0.1248625560342559,
+  "commission_samples": 4032,
+  "mode": "thermal_fit",
+  "verified_healthy_required": true,
+  "rating_kva": 100,
+  "calibration_status": "VERIFIED_COMMISSIONED",
+  "asset_id": "re2a7c719379494ff",
+  "commission_duration_minutes": 20160,
+  "provenance": "Independent synthetic healthy commissioning observations only; no profile lookup"
+}

@@ -1,0 +1,41 @@
+{
+  "rating_kva": 630,
+  "primary_V": 11000,
+  "secondary_line_V": 433,
+  "frequency_Hz": 50,
+  "vector_group": "Dyn11",
+  "cooling": "ONAN",
+  "conductor": "Cu/Cu",
+  "no_load_loss_W": 1200,
+  "load_loss_W_at_75C": 9300,
+  "impedance_pct": 6,
+  "nominal_top_oil_rise_K": 50,
+  "oil_exponent": 0.8,
+  "tau_heat_min": 240,
+  "tau_cool_min": 300,
+  "thermal_parameter_status": "PROVISIONAL_ENGINEERING_RANGE_NOT_TARGET_CALIBRATED",
+  "thermal_ranges": {
+    "rise_K": [
+      42,
+      60
+    ],
+    "tau_heat_min": [
+      140,
+      420
+    ],
+    "tau_cool_min": [
+      180,
+      540
+    ],
+    "oil_exponent": [
+      0.7,
+      1.0
+    ]
+  },
+  "sources": [
+    "L09 p1 for rating/losses/impedance",
+    "E11 thermal experiments: different 10-kV design, not a nominal constant",
+    "L08 p3-4: different 20/0.4-kV surface proxy experiment"
+  ],
+  "thermal_range_basis": "Deliberate broad sensitivity envelope, not measured confidence intervals. 50 K is a provisional nominal rise, not a digitized test fit."
+}

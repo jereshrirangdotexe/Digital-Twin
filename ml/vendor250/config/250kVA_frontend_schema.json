@@ -1,0 +1,367 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "VoltMind 250kVA frontend payload v1.0",
+  "type": "object",
+  "properties": {
+    "asset": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "ratingKVA": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "ONLINE",
+            "OFFLINE",
+            "UNKNOWN"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ratingKVA",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "timestamp": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "telemetry": {
+      "type": "object",
+      "properties": {
+        "voltageR": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "voltageY": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "voltageB": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "currentR": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "currentY": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "currentB": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "ambientTempC": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "topOilTempC": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "communicationAvailable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "loadingPct": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "voltageR",
+        "voltageY",
+        "voltageB",
+        "currentR",
+        "currentY",
+        "currentB",
+        "ambientTempC",
+        "topOilTempC",
+        "communicationAvailable",
+        "loadingPct"
+      ],
+      "additionalProperties": false
+    },
+    "ml": {
+      "type": "object",
+      "properties": {
+        "expectedOilTempC": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "thermalResidualC": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "thermalResidualTrendCPerMin": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "thermalResidualMean30minC": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "nominalModelResidualC": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "thermalScore": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "thermalDecisionMargin": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "thermalAlert": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "thermalState": {
+          "type": "string",
+          "enum": [
+            "NORMAL",
+            "THERMAL_ALERT",
+            "THERMAL_UNASSESSED"
+          ]
+        },
+        "phaseLoadingWarning": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "undervoltageWarning": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "imbalanceWarning": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "electricalState": {
+          "type": "string",
+          "enum": [
+            "NORMAL",
+            "PHASE_LOADING_WARNING",
+            "UNDERVOLTAGE_WARNING",
+            "IMBALANCE_WARNING",
+            "MULTIPLE_WARNINGS",
+            "UNASSESSED"
+          ]
+        },
+        "dataConfidence": {
+          "type": "string",
+          "enum": [
+            "GOOD",
+            "REDUCED",
+            "UNAVAILABLE"
+          ]
+        },
+        "assetCondition": {
+          "type": "string",
+          "enum": [
+            "NORMAL",
+            "THERMAL_CONDITION_ALERT",
+            "ELECTRICAL_CONDITION_ALERT",
+            "MULTIPLE_CONDITIONS",
+            "SENSOR_SUSPECT",
+            "UNASSESSED"
+          ]
+        },
+        "calibrationStatus": {
+          "type": "string",
+          "enum": [
+            "ASSET_SPECIFIC",
+            "VERIFIED_COMMISSIONED",
+            "REFERENCE_CALIBRATION",
+            "NOT_CALIBRATED",
+            "INVALID"
+          ]
+        },
+        "warmupStatus": {
+          "type": "string",
+          "enum": [
+            "WARMING_UP",
+            "READY"
+          ]
+        },
+        "modelVersion": {
+          "type": "string"
+        },
+        "modelStatus": {
+          "type": "string",
+          "enum": [
+            "COMPETITION_PROTOTYPE_LOCKED"
+          ]
+        },
+        "runtimeVersion": {
+          "type": "string"
+        },
+        "lowOilGaugeAssessment": {
+          "type": "string",
+          "enum": [
+            "UNSUPPORTED_BASIC"
+          ]
+        }
+      },
+      "required": [
+        "expectedOilTempC",
+        "thermalResidualC",
+        "thermalResidualTrendCPerMin",
+        "thermalResidualMean30minC",
+        "nominalModelResidualC",
+        "thermalScore",
+        "thermalDecisionMargin",
+        "thermalAlert",
+        "thermalState",
+        "phaseLoadingWarning",
+        "undervoltageWarning",
+        "imbalanceWarning",
+        "electricalState",
+        "dataConfidence",
+        "assetCondition",
+        "calibrationStatus",
+        "warmupStatus",
+        "modelVersion",
+        "modelStatus",
+        "runtimeVersion",
+        "lowOilGaugeAssessment"
+      ],
+      "additionalProperties": false
+    },
+    "diagnostics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "failed": {
+      "type": "boolean"
+    },
+    "digitalTwin": {
+      "type": "object",
+      "properties": {
+        "healthIndex": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "healthBand": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "riskScore": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "riskLevel": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "agingState": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "maintenancePriority": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "maintenanceRecommendation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "explanation": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "healthIndex",
+        "healthBand",
+        "riskScore",
+        "riskLevel",
+        "agingState",
+        "maintenancePriority",
+        "maintenanceRecommendation",
+        "explanation"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "asset",
+    "timestamp",
+    "telemetry",
+    "ml",
+    "diagnostics",
+    "failed",
+    "digitalTwin"
+  ],
+  "additionalProperties": false
+}

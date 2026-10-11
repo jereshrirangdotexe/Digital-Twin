@@ -1,0 +1,140 @@
+{
+  "train_replays": [
+    "R00",
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05"
+  ],
+  "validation_replays": [
+    "R06",
+    "R07"
+  ],
+  "fresh_test_replays": {
+    "unseen": [
+      "N00",
+      "N01",
+      "N02",
+      "N03",
+      "N04",
+      "N05",
+      "N06",
+      "N07",
+      "N08",
+      "N09",
+      "N10",
+      "N11"
+    ],
+    "stress": [
+      "T00",
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06",
+      "T07",
+      "T08",
+      "T09",
+      "T10",
+      "T11"
+    ]
+  },
+  "thermal_fit_initial": [
+    32,
+    150,
+    0,
+    0.16
+  ],
+  "thermal_fit_parameter_order": [
+    "rise_K",
+    "tau_min",
+    "bias_C",
+    "loss_fraction"
+  ],
+  "thermal_fit_lower_bounds": [
+    20,
+    75,
+    -4,
+    0.08
+  ],
+  "thermal_fit_upper_bounds": [
+    35,
+    520,
+    4,
+    0.25
+  ],
+  "thermal_fit_loss": "soft_l1",
+  "thermal_fit_f_scale": 0.5,
+  "thermal_fit_max_nfev": 150,
+  "nominal_exponent": 0.8,
+  "target": "condition_thermal_residual",
+  "generator_seeds": [
+    41000000,
+    51000000
+  ],
+  "commissioning_seeds": [
+    31000000,
+    61000000,
+    71000000
+  ],
+  "model_version": "VoltMind_100kVA_Final_Selected_v3",
+  "selection": "FINAL SELECTED",
+  "benchmark_lock": "CONDITIONAL_SYNTHETIC_BENCHMARK",
+  "classifier_hyperparameters": {
+    "C": 1,
+    "class_weight": null,
+    "dual": false,
+    "fit_intercept": true,
+    "intercept_scaling": 1,
+    "l1_ratio": 0.0,
+    "max_iter": 2000,
+    "n_jobs": null,
+    "penalty": "deprecated",
+    "random_state": 100,
+    "solver": "lbfgs",
+    "tol": 0.0001,
+    "verbose": 0,
+    "warm_start": false
+  },
+  "seed": 100,
+  "decision_margin_threshold": 13.297415516625,
+  "decision_rule": "round(margin,12) > threshold",
+  "development_replays": [
+    "U00",
+    "U01",
+    "U02",
+    "U03",
+    "U04",
+    "U05",
+    "U06",
+    "U07",
+    "U08",
+    "U09",
+    "U10",
+    "U11",
+    "S00",
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11"
+  ],
+  "test_generator_seeds": [
+    81000000,
+    91000000
+  ],
+  "test_commissioning_seeds": [
+    101000000,
+    111000000
+  ],
+  "score_meaning": "Uncalibrated sigmoid score; use the returned alert or raw margin for decisions, not a rounded probability",
+  "field_validated": false
+}

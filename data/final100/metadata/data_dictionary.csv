@@ -1,0 +1,121 @@
+table,column,unit,role,missing_policy,provenance
+primary_full,replay_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,timestamp_IST,ISO8601 IST UTC+05:30,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,VR_V,V,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,IR_A,A,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,VY_V,V,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,IY_A,A,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,VB_V,V,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,IB_A,A,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,ambient_temp_C,degC,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,top_oil_temp_C,degC,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,communication_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,VLL_est_V,V,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,current_avg_A,A,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,apparent_power_est_kVA,kVA,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,loading_est_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,voltage_magnitude_unbalance_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,current_magnitude_unbalance_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,max_phase_current_loading_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,oil_level_fraction,fraction,simulated_optional_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,terminal_R_surface_temp_C,degC,simulated_LV_terminal_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,oil_level_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,terminal_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,operating_tank_gas_pressure_kPa,kPa gauge,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,mechanical_vibration_rms_m_s2,m/s^2,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_partial_discharge_pC,pC,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,measured_hotspot_temp_C,degC,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,hotspot_estimate_C,degC,causal_estimate_not_measured,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,tank_pressure_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,vibration_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_PD_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,hotspot_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,pressure_relief_contact,identifier / metadata,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,pressure_relay_contact_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_capacitance_pF,pF,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_dielectric_test_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_tan_delta_pct,percent,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_leakage_current_mA,mA,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_leakage_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,measured_impedance_pct,percent,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,impedance_test_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,terminal_Y_surface_temp_C,degC,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,terminal_Y_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,terminal_B_surface_temp_C,degC,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,terminal_B_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,pressure_sensor_position,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,pressure_reference,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,bushing_type_verified,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,vibration_window_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,fast_event_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,offline_test_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,data_origin,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,oil_inventory_estimate_at_20C_L,L,causal_estimate,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,oil_level_temperature_corrected_fraction,fraction,causal_estimate,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,oil_inventory_change_past_115min_L,L,causal_estimate,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+primary_full,oil_estimate_quality,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,replay_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,timestamp_IST,ISO8601 IST UTC+05:30,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,VR_V,V,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,IR_A,A,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,VY_V,V,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,IY_A,A,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,VB_V,V,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,IB_A,A,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,ambient_temp_C,degC,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,top_oil_temp_C,degC,simulated_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,communication_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,VLL_est_V,V,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,current_avg_A,A,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,apparent_power_est_kVA,kVA,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,loading_est_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,voltage_magnitude_unbalance_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,current_magnitude_unbalance_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,max_phase_current_loading_pct,percent,derived_not_default_input,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,oil_level_fraction,fraction,simulated_optional_sensor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,oil_level_sensor_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,data_origin,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,oil_inventory_estimate_at_20C_L,L,causal_estimate,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,oil_level_temperature_corrected_fraction,fraction,causal_estimate,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,oil_inventory_change_past_115min_L,L,causal_estimate,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+oil_controls,oil_estimate_quality,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,event_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,core_replay_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,core_timestamp_IST,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,waveform_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,relative_onset_s,seconds,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,sample_rate_Hz,Hz,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,waveform_samples,samples,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,relative_clearing_s,seconds,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,data_origin,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,linked_to_core,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,scenario_source,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+fast_event_registry,urgent_event_channel,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,parameter_group_id,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,rating_kVA,kVA,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,HV_line_line_V,V,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,LV_line_line_V,V,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,frequency_Hz,Hz,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,phases,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,vector_group,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,tank_design,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,oil_type,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,impedance_nameplate_spec_reference_pct,percent,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,measured_impedance_pct,percent,UNAVAILABLE_NOT_TRAINABLE,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,impedance_measurement_available,0/1,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,geometry_reference_volume_L,L,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,effective_gauge_volume_L_assumed,L,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,oil_expansion_per_K_configured_assumption,1/K,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+asset_context,asset_origin,identifier / metadata,context_or_routing_not_predictor,Blank means unavailable; do not zero-fill,V3 simulator / V4 declared assumptions
+external_vibration,window_channel_id,identifier / metadata,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,sensor_id,identifier / metadata,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,source_data_time,original ISO8601 timestamp,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,sample_count,samples,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,sample_rate_Hz_author_declared,Hz,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,rms_raw_units,uncalibrated source units,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,mean_raw_units,uncalibrated source units,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,peak_to_peak_raw_units,uncalibrated source units,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,dominant_frequency_Hz_assuming_declared_rate,Hz,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,source_unit_id,identifier / metadata,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,target_replay_id,identifier / metadata,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated
+external_vibration,target_training_eligible,0/1,EXTERNAL_REFERENCE_NOT_TARGET_TRAINING,Blank means unavailable; do not zero-fill,F04 author raw files; raw units uncalibrated

@@ -1,0 +1,10 @@
+{
+  "dataset_creation_authorized": true,
+  "generation_complete": true,
+  "validation_complete": true,
+  "training_authorized": false,
+  "training_started": false,
+  "tournament_started": false,
+  "deployed": false,
+  "reproducibility_complete": true
+}

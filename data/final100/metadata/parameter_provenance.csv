@@ -1,0 +1,14 @@
+parameter,value_or_range,source_id,locator_or_basis,evidence_grade
+target nameplate / topology,100 kVA; 11kV/433V; Dyn11; 50Hz; ONAN; nonsealed; aluminium,S03,"PDF pp4-15,39-43",SPECIFICATION_TARGET_NOT_MEASURED
+impedance nominal/tolerance,4.5%; 4.05-4.95%,S03,"PDF pp10,43",SPECIFICATION; GROUP SENSITIVITY NOT TIME-VARYING DIAGNOSIS
+oil nominal volume,190 L excluding absorption,S03,parameter evidence ledger,SPECIFICATION; REFERENCE20C IS ASSUMED
+loss split,P0 170-225 W; Pk75 850-995 W,SIM_ASSUMPTION with S03 bounds,P0<=230; P0+.25Pk<=475; P0+Pk<=1650,FEASIBLE_SYNTHETIC; NOT FACTORY_CALIBRATED
+oil rise/exponent/tau,28-35 K; 0.8; 120-240min,S03 / S05 qualitative / SIM_ASSUMPTION,parameter decisions; S05 different single-phase design,UNCERTAINTY_STRESS_NOT_CONFIDENCE_INTERVAL
+hotspot gradient / winding tau,12-18 K / 6-12min,SIM_ASSUMPTION; S06/E04 mechanism only,E04 different 100kVA design; no raw target calibration,EXPLORATORY_TWO_STATE_ESTIMATE
+oil expansion / gauge,0.00065-0.0008/K; 30 L effective gauge; 0.5 initial,SIM_ASSUMPTION,no matching gauge calibration recovered,EXPLORATORY_NOT_FIELD_VALIDATED
+leak severity,0.35-0.8 L/hour during injected event,DESIGNED_TEST_DISTRIBUTION,not estimated from incident counts,EXPLORATORY_NOT_INCIDENCE
+terminal heating,"I^2R; 0.1mOhm nominal, 1-3mOhm fault; 0.6-1.2K/W",SIM_ASSUMPTION,LV terminal surface only; no HV bushing dielectric claim,EXPLORATORY
+transient equivalent circuit,source Z 0.005-0.02pu; R/Z=.15; external Rfault=.001pu; ideal clear80-200ms after inception,SIM_ASSUMPTION / S03 transformer Z,no source short circuit level or real relay trace recovered,EXPLORATORY_3PH_EXTERNAL_ONLY
+organiser fixture values,6 electrical +3 current +3 temperature,ORGANISER_XLSX,"Sheet1 rows4-10,16-18,23-25",SUPPLIED_SNAPSHOTS_NOT_TIME_SERIES
+noise/quality attacks,sensor bias .18% SD plus noise; temp bias .15C SD; attacks separate,SIM_ASSUMPTION,not sensor datasheet calibration,DESIGNED_STRESS
+pressure / mechanical / PD / lab histories,unavailable,NOT_ACQUIRED,research gap reports,EXCLUDED_FROM_TRAINABLE_NUMERIC_CLAIMS

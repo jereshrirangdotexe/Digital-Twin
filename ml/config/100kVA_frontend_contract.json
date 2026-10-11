@@ -1,0 +1,730 @@
+{
+  "type": "object",
+  "properties": {
+    "contractVersion": {
+      "type": "string",
+      "description": "Transport contract version",
+      "x-unit": null,
+      "x-nullable": false,
+      "x-source": "DATA_QUALITY",
+      "x-meaning": "Transport contract version",
+      "enum": [
+        "1.0"
+      ]
+    },
+    "asset": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Asset identity only for history routing, never an ML feature; neutral ID if absent.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "SCADA",
+          "x-meaning": "Asset identity only for history routing, never an ML feature; neutral ID if absent."
+        },
+        "ratingKVA": {
+          "type": "integer",
+          "description": "Only the supported 100-kVA transformer",
+          "x-unit": "kVA",
+          "x-nullable": false,
+          "x-source": "SCADA",
+          "x-meaning": "Only the supported 100-kVA transformer",
+          "enum": [
+            100
+          ]
+        },
+        "status": {
+          "type": "string",
+          "description": "Telemetry communication availability",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "DATA_QUALITY",
+          "x-meaning": "Telemetry communication availability",
+          "enum": [
+            "ONLINE",
+            "OFFLINE",
+            "UNKNOWN"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "ratingKVA",
+        "status"
+      ],
+      "additionalProperties": false
+    },
+    "timestamp": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Normalized reading time retaining represented timezone. null for invalid timestamps; original input retained under quality.",
+      "x-unit": "ISO-8601 with offset",
+      "x-nullable": true,
+      "x-source": "SCADA",
+      "x-meaning": "Normalized reading time retaining represented timezone. null for invalid timestamps; original input retained under quality."
+    },
+    "telemetry": {
+      "type": "object",
+      "properties": {
+        "voltageR": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "V RMS phase-neutral",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "voltageY": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "V RMS phase-neutral",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "voltageB": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "V RMS phase-neutral",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "currentR": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "A RMS",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "currentY": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "A RMS",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "currentB": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "A RMS",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "ambientTempC": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "topOilTempC": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Validated physical reading; null when absent, implausible or communication unavailable.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Validated physical reading; null when absent, implausible or communication unavailable."
+        },
+        "loadingPct": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Sum of phase-neutral V*I / 1000 equals apparent kVA and percentage of the 100-kVA rating; externally declared loading only if VI unavailable. Does not substitute for missing phase currents.",
+          "x-unit": "%",
+          "x-nullable": true,
+          "x-source": "ENGINEERING_SCREEN",
+          "x-meaning": "Sum of phase-neutral V*I / 1000 equals apparent kVA and percentage of the 100-kVA rating; externally declared loading only if VI unavailable. Does not substitute for missing phase currents."
+        },
+        "loadingSource": {
+          "type": "string",
+          "description": "Origin of the displayed loading value",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "ENGINEERING_SCREEN",
+          "x-meaning": "Origin of the displayed loading value",
+          "enum": [
+            "DERIVED_PHASE_VI",
+            "SCADA_DECLARED",
+            "UNAVAILABLE"
+          ]
+        },
+        "communicationAvailable": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Explicit communication flag, or assumed available if absent; invalid values become null with a quality issue.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "SCADA",
+          "x-meaning": "Explicit communication flag, or assumed available if absent; invalid values become null with a quality issue."
+        }
+      },
+      "required": [
+        "voltageR",
+        "voltageY",
+        "voltageB",
+        "currentR",
+        "currentY",
+        "currentB",
+        "ambientTempC",
+        "topOilTempC",
+        "loadingPct",
+        "loadingSource",
+        "communicationAvailable"
+      ],
+      "additionalProperties": false
+    },
+    "ml": {
+      "type": "object",
+      "properties": {
+        "expectedOilTempC": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs."
+        },
+        "thermalResidualC": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs."
+        },
+        "residualMean30minC": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs."
+        },
+        "residualMean60minC": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs."
+        },
+        "residualChange30minC": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Causal expected temperature, actual-minus-expected residual or trailing residual statistic as named; rejected timestamps yield unavailable outputs."
+        },
+        "thermalScore": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Uncalibrated sigmoid of rounded logistic margin; not failure probability. Use thermalAlert for decisions.",
+          "x-unit": "unitless",
+          "x-nullable": true,
+          "x-source": "ML",
+          "x-meaning": "Uncalibrated sigmoid of rounded logistic margin; not failure probability. Use thermalAlert for decisions."
+        },
+        "thermalDecisionMargin": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Frozen pipeline margin rounded to 12 decimals; strict cutoff 13.297415516625.",
+          "x-unit": "unitless",
+          "x-nullable": true,
+          "x-source": "ML",
+          "x-meaning": "Frozen pipeline margin rounded to 12 decimals; strict cutoff 13.297415516625."
+        },
+        "thermalAlert": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "ML",
+          "x-meaning": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis."
+        },
+        "phaseLoadingWarning": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "ENGINEERING_SCREEN",
+          "x-meaning": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis."
+        },
+        "undervoltageWarning": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "ENGINEERING_SCREEN",
+          "x-meaning": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis."
+        },
+        "imbalanceWarning": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "ENGINEERING_SCREEN",
+          "x-meaning": "True condition warning, false assessed absence, null when unassessed or insufficient persistence history. Electrical warnings remain separate from thermal diagnosis."
+        },
+        "thermalState": {
+          "type": "string",
+          "description": "Controlled thermalState state. NORMAL is a model/screen result, not a health certification.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "ML",
+          "x-meaning": "Controlled thermalState state. NORMAL is a model/screen result, not a health certification.",
+          "enum": [
+            "NORMAL",
+            "THERMAL_ALERT",
+            "THERMAL_UNASSESSED"
+          ]
+        },
+        "electricalState": {
+          "type": "string",
+          "description": "Controlled electricalState state. NORMAL is a model/screen result, not a health certification.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "ENGINEERING_SCREEN",
+          "x-meaning": "Controlled electricalState state. NORMAL is a model/screen result, not a health certification.",
+          "enum": [
+            "NORMAL",
+            "PHASE_LOADING_WARNING",
+            "UNDERVOLTAGE_WARNING",
+            "IMBALANCE_WARNING",
+            "MULTIPLE_WARNINGS",
+            "UNASSESSED"
+          ]
+        },
+        "dataConfidence": {
+          "type": "string",
+          "description": "Controlled dataConfidence state. NORMAL is a model/screen result, not a health certification.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "DATA_QUALITY",
+          "x-meaning": "Controlled dataConfidence state. NORMAL is a model/screen result, not a health certification.",
+          "enum": [
+            "GOOD",
+            "REDUCED",
+            "UNAVAILABLE"
+          ]
+        },
+        "warmupStatus": {
+          "type": "string",
+          "description": "Controlled warmupStatus state. NORMAL is a model/screen result, not a health certification.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "DATA_QUALITY",
+          "x-meaning": "Controlled warmupStatus state. NORMAL is a model/screen result, not a health certification.",
+          "enum": [
+            "WARMING_UP",
+            "READY"
+          ]
+        },
+        "calibrationStatus": {
+          "type": "string",
+          "description": "Controlled calibrationStatus state. NORMAL is a model/screen result, not a health certification.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "DATA_QUALITY",
+          "x-meaning": "Controlled calibrationStatus state. NORMAL is a model/screen result, not a health certification.",
+          "enum": [
+            "ASSET_SPECIFIC",
+            "VERIFIED_COMMISSIONED",
+            "REFERENCE_CALIBRATION",
+            "NOT_CALIBRATED",
+            "INVALID"
+          ]
+        },
+        "assetCondition": {
+          "type": "string",
+          "description": "Controlled assetCondition state. NORMAL is a model/screen result, not a health certification.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "ENGINEERING_SCREEN",
+          "x-meaning": "Controlled assetCondition state. NORMAL is a model/screen result, not a health certification.",
+          "enum": [
+            "NORMAL",
+            "THERMAL_CONDITION_ALERT",
+            "ELECTRICAL_CONDITION_ALERT",
+            "MULTIPLE_CONDITIONS",
+            "SENSOR_SUSPECT",
+            "UNASSESSED"
+          ]
+        },
+        "modelVersion": {
+          "type": "string",
+          "description": "Exact frozen model or deployment release identifier as named.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "ML",
+          "x-meaning": "Exact frozen model or deployment release identifier as named."
+        },
+        "modelStatus": {
+          "type": "string",
+          "description": "Exact frozen model or deployment release identifier as named.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "ML",
+          "x-meaning": "Exact frozen model or deployment release identifier as named."
+        },
+        "runtimeVersion": {
+          "type": "string",
+          "description": "Exact frozen model or deployment release identifier as named.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "ML",
+          "x-meaning": "Exact frozen model or deployment release identifier as named."
+        }
+      },
+      "required": [
+        "expectedOilTempC",
+        "thermalResidualC",
+        "residualMean30minC",
+        "residualMean60minC",
+        "residualChange30minC",
+        "thermalScore",
+        "thermalDecisionMargin",
+        "thermalAlert",
+        "phaseLoadingWarning",
+        "undervoltageWarning",
+        "imbalanceWarning",
+        "thermalState",
+        "electricalState",
+        "dataConfidence",
+        "warmupStatus",
+        "calibrationStatus",
+        "assetCondition",
+        "modelVersion",
+        "modelStatus",
+        "runtimeVersion"
+      ],
+      "additionalProperties": false
+    },
+    "calibration": {
+      "type": "object",
+      "properties": {
+        "rise": {
+          "type": "number",
+          "description": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established.",
+          "x-unit": "K",
+          "x-nullable": false,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established."
+        },
+        "tau": {
+          "type": "number",
+          "description": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established.",
+          "x-unit": "min",
+          "x-nullable": false,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established."
+        },
+        "bias": {
+          "type": "number",
+          "description": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established.",
+          "x-unit": "deg C",
+          "x-nullable": false,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established."
+        },
+        "loss_ratio": {
+          "type": "number",
+          "description": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established.",
+          "x-unit": "fraction",
+          "x-nullable": false,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established."
+        },
+        "commission_rmse_C": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established.",
+          "x-unit": "deg C",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established."
+        },
+        "commission_samples": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established.",
+          "x-unit": "samples",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established."
+        },
+        "commission_duration_minutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established.",
+          "x-unit": "min",
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Selected calibration parameter or separate verified commissioning diagnostic. Reference diagnostics are null when not independently established."
+        },
+        "bound_warnings": {
+          "type": "array",
+          "description": "Calibration identifiability/bound warnings.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Calibration identifiability/bound warnings.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "provenance": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Traceable calibration origin; reference is synthetic and approximate.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "THERMAL_MODEL",
+          "x-meaning": "Traceable calibration origin; reference is synthetic and approximate."
+        }
+      },
+      "required": [
+        "rise",
+        "tau",
+        "bias",
+        "loss_ratio",
+        "commission_rmse_C",
+        "commission_samples",
+        "commission_duration_minutes",
+        "bound_warnings",
+        "provenance"
+      ],
+      "additionalProperties": false
+    },
+    "quality": {
+      "type": "object",
+      "properties": {
+        "issues": {
+          "type": "array",
+          "description": "Machine-readable issue codes with optional :signal suffix; multiple may coexist.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "DATA_QUALITY",
+          "x-meaning": "Machine-readable issue codes with optional :signal suffix; multiple may coexist.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "thermalAssessable": {
+          "type": "boolean",
+          "description": "True only with required clean history, initialized expected temperature and usable inputs.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "DATA_QUALITY",
+          "x-meaning": "True only with required clean history, initialized expected temperature and usable inputs."
+        },
+        "inputTimestamp": {
+          "type": "string",
+          "description": "Original input timestamp representation for row traceability.",
+          "x-unit": null,
+          "x-nullable": false,
+          "x-source": "SCADA",
+          "x-meaning": "Original input timestamp representation for row traceability."
+        }
+      },
+      "required": [
+        "issues",
+        "thermalAssessable",
+        "inputTimestamp"
+      ],
+      "additionalProperties": false
+    },
+    "digitalTwin": {
+      "type": "object",
+      "properties": {
+        "healthIndex": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        },
+        "healthBand": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        },
+        "riskScore": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        },
+        "riskLevel": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        },
+        "agingState": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        },
+        "maintenancePriority": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        },
+        "maintenanceRecommendation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        },
+        "explanation": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity.",
+          "x-unit": null,
+          "x-nullable": true,
+          "x-source": "DIGITAL_TWIN",
+          "x-meaning": "Reserved for the downstream Digital Twin. This ML serializer emits null and does not fabricate this quantity."
+        }
+      },
+      "required": [
+        "healthIndex",
+        "healthBand",
+        "riskScore",
+        "riskLevel",
+        "agingState",
+        "maintenancePriority",
+        "maintenanceRecommendation",
+        "explanation"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "contractVersion",
+    "asset",
+    "timestamp",
+    "telemetry",
+    "ml",
+    "calibration",
+    "quality",
+    "digitalTwin"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://voltmind.example/contracts/100kva/frontend-v1",
+  "title": "VoltMind 100-kVA frontend contract v1.0"
+}

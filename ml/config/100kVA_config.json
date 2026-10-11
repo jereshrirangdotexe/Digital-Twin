@@ -1,0 +1,29 @@
+{
+  "runtime_version": "VoltMind_100kVA_Hackathon_Runtime_v1.0",
+  "rating_kva": 100,
+  "model_sha256": "e28ca99b1a9be248cea992362ec096bee137bdda321b3476471f4d448afbe831",
+  "phase_neutral_voltage_v": 249.99266655910796,
+  "rated_current_a": 133.33724461654174,
+  "max_driver_hold_samples": 12,
+  "default_timezone": "Asia/Kolkata",
+  "interval_minutes": 5,
+  "physical_ranges": {
+    "voltage": [
+      0,
+      600
+    ],
+    "current": [
+      0,
+      1000
+    ],
+    "ambient": [
+      -50,
+      70
+    ],
+    "oil": [
+      -50,
+      180
+    ]
+  },
+  "range_note": "Conservative configurable plausibility envelope; does not prove sensor health. Voltage inputs are phase-neutral RMS."
+}

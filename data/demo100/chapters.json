@@ -1,0 +1,14 @@
+[
+  {
+    "dates": "1\u20138 February 2026",
+    "story": "Healthy load-response: actual follows expected as loading alternates 35% / 70%."
+  },
+  {
+    "dates": "9\u201311 February 2026",
+    "story": "Injected excess heating: actual separates from expected; observe the unchanged detector."
+  },
+  {
+    "dates": "12\u201314 February 2026",
+    "story": "Injected heat removed: gradual cooling and detector recovery."
+  }
+]

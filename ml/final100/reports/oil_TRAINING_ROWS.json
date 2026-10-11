@@ -1,0 +1,28 @@
+{
+  "rows": 106587,
+  "positive_rows": 54127,
+  "features": [
+    "inventory_deficit_L",
+    "inventory_change_115min_L",
+    "inventory_change_30min_L",
+    "inventory_mean_60min_L",
+    "inventory_std_60min_L",
+    "level_fraction",
+    "oil_temperature_C",
+    "level_flat_samples"
+  ],
+  "groups": [
+    "g1272c002cdb84d4d",
+    "g209fcf841f4c2f74",
+    "g4f6e789b0cd2f8e9",
+    "g5c3eab0503749f5c",
+    "g5f653f22b0076390",
+    "g86f78af35c822811",
+    "gc13b8e0b4b0cea94",
+    "gc2e5abe270851d4d",
+    "ge31890c9cfe4255a",
+    "ge71481832ef76ef6",
+    "ge8e48cf6c7637d8d",
+    "gee1a3fa98f6d76b0"
+  ]
+}

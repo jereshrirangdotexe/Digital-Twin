@@ -1,0 +1,7 @@
+# Frontend contract v1
+
+GET current returns null before a sample. Once active, asset.id/ratingKVA/status; source.mode/filename/replayId; ISO-UTC timestamp; telemetry phase V, phase A, ambient/oil C, max-phase loading %, communication boolean/null; ml expected oil/residual C, clipped thermal score [0,1], margin score-threshold, nullable thermalAlert, state, warnings, confidence, sensor/calibration/warmup/model metadata; digitalTwin nullable unsupported outputs and a human-readable explanation.
+
+Absent measurements are null. Score/alert remain null until valid warmup. Thermal state is NORMAL, THERMAL_DEVIATION or THERMAL_UNASSESSED, never a confirmed mechanical diagnosis. Sensor state distinguishes corruption from ambiguous residual. Confidence is GOOD_SYNTHETIC_CALIBRATION, REDUCED or UNAVAILABLE; GOOD is qualified by simulation calibration, not certified physical calibration. Electrical warnings: PHASE_LOADING_WARNING (>100% of rated phase current), UNDERVOLTAGE_WARNING (<90% nominal phase voltage), IMBALANCE_WARNING (>15% current or >3% voltage magnitude deviation); thresholds are prototype screens, not protection settings.
+
+Persistent deviation remains ambiguous between physical and gradual sensor changes. Health Index, risk, aging, RUL and maintenance priority/recommendation are null. JSON disallows NaN/Infinity. Invalid chronological/schema/config input raises precise errors; backend exposes 400 compatibility errors or 503 runtime-unavailable errors. Existing field names remain stable in version1.

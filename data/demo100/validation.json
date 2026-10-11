@@ -1,0 +1,16 @@
+{
+  "rows": 4032,
+  "intervalMinutes": 5,
+  "days": 14,
+  "asset": "DEMO100_THERMAL_TWIN",
+  "synthetic": true,
+  "normalAssessedRowsBeforeInjectedEvent": 2293,
+  "healthyResponseEpisodes": 31,
+  "firstThermalAlert": "2026-02-08T19:25:00+00:00",
+  "thermalAlertRows": 911,
+  "lastDayThermalAlerts": 0,
+  "unassessedRows": 11,
+  "modelVersion": "VoltMind_LR_V4_LOCKED",
+  "modelSHA256": "cf9bcd7f7190ebccab74423b66e66944f4b1ad8cc90684b9d6772dc5b5b08e18",
+  "limitation": "Idealized matched-physics synthetic illustration. This is not an untouched evaluation dataset or evidence of field accuracy."
+}

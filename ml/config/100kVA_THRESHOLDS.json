@@ -1,0 +1,16 @@
+{
+  "decision_margin_threshold": 13.297415516625,
+  "strict_comparison": ">",
+  "margin_rounding_decimals": 12,
+  "probability_equivalent_for_reference_only": 0.9999983211763119,
+  "warmup_samples": 288,
+  "clean_holdoff_samples": 12,
+  "phase_loading_pct": 110,
+  "phase_loading_samples": 3,
+  "current_imbalance_pct": 40,
+  "current_imbalance_samples": 3,
+  "undervoltage_pu": 0.9,
+  "oil_jump_warning_C": 4,
+  "oil_plateau_samples": 36,
+  "oil_expected_range_warning_C": 3
+}

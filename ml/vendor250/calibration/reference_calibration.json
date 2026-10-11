@@ -1,0 +1,17 @@
+{
+  "status": "REFERENCE_CALIBRATION",
+  "rating_kva": 250,
+  "p0_W": 280.0,
+  "pload_W": 2200.0,
+  "rise_K": 33.0,
+  "tau_min": 155.5312164077913,
+  "bias_C": 0.0,
+  "exponent": 0.8,
+  "loss_ratio": 0.12727272727272726,
+  "rmse_C": null,
+  "sample_count": 0,
+  "duration_min": 0,
+  "bound_warnings": [],
+  "verified_healthy": false,
+  "provenance": "Frozen global reference assumptions from locked 250kVA package; no asset-specific calibration"
+}

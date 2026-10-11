@@ -1,0 +1,33 @@
+{
+  "raw_required": [
+    "VR_V",
+    "VY_V",
+    "VB_V",
+    "IR_A",
+    "IY_A",
+    "IB_A",
+    "ambient_temp_C",
+    "top_oil_temp_C",
+    "communication_status"
+  ],
+  "routing_only": [
+    "replay_id",
+    "timestamp_IST"
+  ],
+  "features": [
+    "mean_phase_voltage_V",
+    "voltage_imbalance_pct",
+    "loading_pct",
+    "max_phase_loading_pct",
+    "current_imbalance_pct",
+    "oil_rise_K",
+    "oil_change_30min_C",
+    "oil_change_60min_C",
+    "past_loading_mean_180min_pct",
+    "past_ambient_mean_180min_C",
+    "past_loading_mean_360min_pct",
+    "past_ambient_mean_360min_C",
+    "nominal_oil_residual_C"
+  ],
+  "sampling_minutes": 5
+}
